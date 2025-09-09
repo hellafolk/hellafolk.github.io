@@ -1,6 +1,3 @@
-title: "Anna Mariah McAuliffe"
-
-## Contact Information
 (mailto:anna.mcauliffe@noaa.gov)
 
 ## Educational and Professional Background

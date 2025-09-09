@@ -19,7 +19,7 @@ title: Anna Mariah McAuliffe
 ---
 
 ### Background
-Raised on the shores of the Chesapeake Bay and now based in Eldorado Springs, I’m passionate about the intersections of Earth systems, technology, and community. Also a lover of flying things—be it airplanes, ideas, or the occasional rogue kite.  
+Raised on the shores of the Chesapeake Bay and now based in Eldorado Springs, I’m passionate about the intersections of Earth systems, technology, and community. Also a lover of flying things... be it airplanes, ideas, or the occasional boomerand.  
 
 I’m especially excited about: 
 - Expanding instrumentation and figuring out how to interpret the data  
@@ -32,6 +32,3 @@ Some questions I’d love to answer:
 - How to actually take the best measurement when the planet won’t sit still  
 
 ---
-
-## Photo
-*(to be added later)*

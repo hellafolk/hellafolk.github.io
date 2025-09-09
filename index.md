@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Anna Mariah McAuliffe
 ---
 
 # Anna Mariah McAuliffe

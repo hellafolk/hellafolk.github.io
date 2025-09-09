@@ -1,7 +1,9 @@
-
 title: "Anna Mariah McAuliffe"
-avatar: "/img/FullSizeRender.jpeg"
+url: "https://hellafolk.github.io"  
+baseurl: "/hellafolk"                     
 remote_theme: andrewhwanpark/brutalist-blog
+
+avatar: "/hellafolk/img/FullSizeRender.jpeg"
 
 plugins:
   - jekyll-remote-theme

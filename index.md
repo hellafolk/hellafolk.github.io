@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Anna Mariah McAuliffe
-<img src="https://hellafolk.github.io/img/FullSizeRender.jpeg" width="320">
 ---
 
 # Anna Mariah McAuliffe
@@ -29,5 +28,5 @@ Some questions I’d love to answer:
 - How carbon dioxide and methane move and change across different regions  
 - How local atmospheric quirks tie into the bigger story of global climate change  
 - How to actually take the best measurement when the planet won’t sit still  
-
 ---
+<img src="https://hellafolk.github.io/img/FullSizeRender.jpeg" width="320">

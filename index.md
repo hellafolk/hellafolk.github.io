@@ -18,7 +18,7 @@ title: Anna Mariah McAuliffe
 
 ---
 
-# Background
+### Background
 Raised on the shores of the Chesapeake Bay and now based in Eldorado Springs, I’m passionate about the intersections of Earth systems, technology, and community. Also a lover of flying things—be it airplanes, ideas, or the occasional rogue kite.  
 
 I’m especially excited about: 

@@ -9,17 +9,15 @@ title: Anna Mariah McAuliffe
 
 ---
 
-## Educational and Professional Background
-- **Education**  
-  Bachelor’s in Physics @ CU Boulder (*sko buffs*)  
-- **Professional Experience**  
-  Associate Scientist at NOAA’s Global Monitoring Laboratory (through CIRES, University of Colorado Boulder)  
-  Builder of science gadgets that sniff greenhouse gases from ships and airplanes  
+## Profession
+- Bachelor’s in Physics @ CU Boulder (*sko buffs*)  
+- Associate Scientist at NOAA’s Global Monitoring Laboratory (through CIRES, University of Colorado Boulder)  
+- Builder of science gadgets that sniff greenhouse gases from ships and airplanes  
 
 ---
 
-### Background
-Raised on the shores of the Chesapeake Bay and now based in Eldorado Springs, I’m passionate about the intersections of Earth systems, technology, and community. Also a lover of flying things... be it airplanes, ideas, or the occasional boomerand.  
+### Path
+Raised on the shores of the Chesapeake Bay and now based in Eldorado Springs, I’m passionate about the intersections of Earth systems, technology, and community. Also a lover of flying things... be it airplanes, ideas, or the occasional boomerang.  
 
 I’m especially excited about: 
 - Expanding instrumentation and figuring out how to interpret the data  

@@ -1,2 +1,10 @@
+
+title: "Anna Mariah McAuliffe"
+description: "Earth data + instruments + canyon winds."
 remote_theme: andrewhwanpark/brutalist-blog
-title: "Anna Mariah McAuliffe" 
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap

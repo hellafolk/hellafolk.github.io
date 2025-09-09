@@ -1,4 +1,4 @@
-(mailto:anna.mcauliffe@noaa.gov)
+anna.mcauliffe@noaa.gov
 
 ## Educational and Professional Background
 - **Education**:  

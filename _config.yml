@@ -3,7 +3,7 @@ url: "https://hellafolk.github.io"
 baseurl: "/hellafolk"                     
 remote_theme: andrewhwanpark/brutalist-blog
 
-avatar: "/hellafolk/img/FullSizeRender.jpeg"
+avatar: "/hellafolk/img/mask.jpg"
 
 plugins:
   - jekyll-remote-theme

@@ -1,9 +1,7 @@
-# Anna Mariah McAuliffe
+title: "Anna Mariah McAuliffe"
 
 ## Contact Information
-- 📧 [Email](mailto:your.email@example.com)
-- 💻 [GitHub](https://github.com/yourusername)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/yourprofile)
+(mailto:anna.mcauliffe@noaa.gov)
 
 ## Educational and Professional Background
 - **Education**:  

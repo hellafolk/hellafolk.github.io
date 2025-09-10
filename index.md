@@ -34,4 +34,4 @@ Some questions I’d love to answer:
 
 #### high elevation surfing
 
-<embed type="text/html" src="img/salida.html" width="600" height="600">
+<embed type="text/html" src="https://hellafolk.github.io/img/salida.html" width="600" height="600">

@@ -29,4 +29,4 @@ Some questions I’d love to answer:
 - How to actually take the best measurement when the planet won’t sit still
  
 ---
-<img src="https://hellafolk.github.io/img/FullSizeRender.jpeg" width="320">
+<img src="https://hellafolk.github.io/img/FullSizeRender.jpeg" width="320"> <embed type="text/html" src="salida.html" width="600" height="600">

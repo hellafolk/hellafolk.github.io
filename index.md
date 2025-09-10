@@ -29,4 +29,9 @@ Some questions I’d love to answer:
 - How to actually take the best measurement when the planet won’t sit still
  
 ---
-<img src="https://hellafolk.github.io/img/FullSizeRender.jpeg" width="320"> <embed type="text/html" src="salida.html" width="600" height="600">
+<img src="https://hellafolk.github.io/img/FullSizeRender.jpeg" width="320"> 
+---
+
+#### high elevation surfing
+
+<embed type="text/html" src="img/salida.html" width="600" height="600">

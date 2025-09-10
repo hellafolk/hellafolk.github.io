@@ -34,4 +34,5 @@ Some questions I’d love to answer:
 
 #### high elevation surfing
 
-<img src="https://hellafolk.github.io/img/salida.html" width="600" height="600">
+<iframe src="{{ '/img/salida.html' | relative_url }}" width="600" height="600" style="border:0;" loading="lazy"></iframe>
+

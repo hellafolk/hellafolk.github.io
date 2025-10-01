@@ -13,14 +13,7 @@ Altitudes: 152 m – 8131 m
 
 For this project, I pulled the **highest sample of the day** from each Mooney flight. The idea: way up there, the air should be above the boundary layer, offering a clearer view of the **background atmosphere**. Plotting those daily “top-of-the-sky” points over time reveals the broader story written in the air above the Pacific. 
 
-<iframe 
-  src="https://hellafolk.github.io/img/top_profile_co2.html" 
-  width="100%" 
-  height="700" 
-  style="border:none;" 
-  loading="lazy">
-</iframe>
-
+<iframe src="https://hellafolk.github.io/img/top_profile_co2.html"/iframe>
 
 
 All credit to:

@@ -3,7 +3,7 @@
 Since 2003, a little Mooney M20M has been lifting off from the coast of northern California, bravely filling glass flasks with Pacific air. Every couple of weeks it climbs from just 500 feet above the waves to more than 26,000 feet in the sky, carrying back samples that still make their way to NOAA’s Global Monitoring Lab in Colorado. Each flask is a tiny snapshot of Earth’s changing atmosphere.  
 
 <p align="center">
-  <img src="https://hellafolk.github.io/img/img/IMG_3115 (4).jpg" width="320">
+  <img src="https://hellafolk.github.io/img/img/IMG_3115 (4).jpeg" width="320">
 </p>
 
 **Trinidad Head (THD)**  

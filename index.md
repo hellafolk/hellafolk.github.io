@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /earthlab_projects/
 ---
 
 # Anna Mariah McAuliffe

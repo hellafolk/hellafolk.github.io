@@ -20,7 +20,7 @@ For this project, I pulled the **highest sample of the day** from each Mooney fl
 
 The record shows two patterns at once. As Earth breathes, CO₂ rises as winter comes and falls again in summer, tracing a seasonal cycle of respiration and growth. Layered on top of that rhythm is a steady upward climb — the year-to-year increase in background CO₂.  
 
-
+---
 <small>
-All credit to: McKain, K., Sweeney, C., Baier, B., Baugh, K., Crotwell, A., Crotwell, M., Handley, P., Higgs, J., Kaiser, E., Madronich, Mauss, J., M., Miller, J. B., Moglia, E., Morris, S., Mund, J., Newberger, T., Petron, G., Verbeke, B., Wolter, S., & NOAA Global Monitoring Laboratory. NOAA Global Greenhouse Gas Reference Network Flask-Air PFP Sample Measurements of CO2, CH4, CO, N2O, H2, S
+Data credit to: McKain, K., Sweeney, C., Baier, B., Baugh, K., Crotwell, A., Crotwell, M., Handley, P., Higgs, J., Kaiser, E., Madronich, Mauss, J., M., Miller, J. B., Moglia, E., Morris, S., Mund, J., Newberger, T., Petron, G., Verbeke, B., Wolter, S., & NOAA Global Monitoring Laboratory. NOAA Global Greenhouse Gas Reference Network Flask-Air PFP Sample Measurements of CO2, CH4, CO, N2O, H2, S
 

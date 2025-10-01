@@ -6,7 +6,7 @@ permalink: /earthlab_projects.html
 
 ### [Places I Love](maps.md)
 
-A small collection of interactive maps I’ve made about places that mean a lot to me.  
+A small collection of maps.
 
 ---
 

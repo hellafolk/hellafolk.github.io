@@ -35,8 +35,8 @@ Some questions I’d love to answer:
 ---
 
 #### little projects below
-
 [click here]({{ '/earthlab_projects/' | relative_url }})
+
 
 
 

@@ -1,8 +1,8 @@
 ---
 layout: default
+title: Earthlab Projects
+permalink: /earthlab_projects/
 ---
-
-## Earth Lab
 
 ### [Places I Love](maps.md)
 

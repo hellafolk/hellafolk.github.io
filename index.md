@@ -36,6 +36,7 @@ Some questions I’d love to answer:
 
 #### little projects below
 
-[Earth Data Analytics Projects](./earthlab_projects.html).
+[click here](/earthlab_projects/)
+
 
 

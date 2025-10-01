@@ -30,7 +30,9 @@ Some questions I’d love to answer:
  
 ---
 
-<img src="https://hellafolk.github.io/img/FullSizeRender.jpeg" width="320"> 
+<p align="center">
+  <img src="https://hellafolk.github.io/img/FullSizeRender.jpeg" width="320">
+</p>
 
 ---
 

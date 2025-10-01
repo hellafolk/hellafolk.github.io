@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Earthlab Projects
-permalink: /earthlab_projects/
+title: Earth Data Analytics Projects
+permalink: /earthlab_projects.html
 ---
 
 ### [Places I Love](maps.md)

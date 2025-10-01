@@ -7,10 +7,6 @@ layout: default
 ### [Places I Love](maps.md)
 
 A small collection of interactive maps I’ve made about places that mean a lot to me.  
-For example:  
-
-<iframe src="https://hellafolk.github.io/img/salida.html" 
-        width="600" height="600" style="border:0" loading="lazy"></iframe>
 
 ---
 

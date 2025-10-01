@@ -10,7 +10,7 @@ A small collection of maps.
 
 ---
 
-### [Trinidad Head Aircraft Flasks](climate_project.md)
+### [Trinidad Head Aircraft Flasks](trinidad_headflask.md)
 
 Some simple climate analysis and visualizations I’m working on.
 

@@ -3,7 +3,7 @@ layout: default
 ---
 ### Trinidad Head Aircraft Site 
 
-Since 2003, a little Mooney M20M has been lifting off from the coast of northern California, bravely filling glass flasks with Pacific air. Every couple of weeks it climbs from just 500 feet above the waves to more than 26,000 feet in the sky, carrying back samples that still make their way to NOAA’s Global Monitoring Lab in Colorado. Each flask is a tiny snapshot of Earth’s changing atmosphere.  
+For more than 20 years, a Mooney M20M has carried glass flasks into the sky above Trinidad Head. Like temporary glass lungs, the flasks are filled with Pacific air and shipped back to NOAA’s Global Monitoring lab in Colorado. Each flight adds to a two-decade record of aircraft measurements, capturing the breath of the Earth. 
 
 <p align="center">
   <img src="https://hellafolk.github.io/img/clouds.jpeg" width="320">

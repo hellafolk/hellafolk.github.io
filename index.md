@@ -34,8 +34,8 @@ Some questions I’d love to answer:
 
 ---
 
-#### high elevation surfing
+#### little projects below
 
-<iframe src="https://hellafolk.github.io/img/salida.html" width="600" height="600" style="border:0" loading="lazy"></iframe>
+[Earth Data Analytics Projects](./earthlab_projects.html).
 
 

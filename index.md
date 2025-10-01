@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /earthlab_projects.html
+permalink: /earthlab_projects/
 ---
 
 # Anna Mariah McAuliffe
@@ -37,7 +37,7 @@ Some questions I’d love to answer:
 
 #### little projects below
 
-[click here](./earthlab_projects.html)
+[click here]({{ '/earthlab_projects/' | relative_url }})
 
 
 

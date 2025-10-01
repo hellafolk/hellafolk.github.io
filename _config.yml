@@ -1,6 +1,6 @@
 title: "Anna Mariah McAuliffe"
 url: "https://hellafolk.github.io"  
-baseurl: "/hellafolk"                     
+baseurl: ""                     
 remote_theme: andrewhwanpark/brutalist-blog
 
 plugins:

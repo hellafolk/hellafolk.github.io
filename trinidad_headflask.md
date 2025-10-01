@@ -16,7 +16,7 @@ Altitudes: 152 m – 8131 m
 
 For this project, I pulled the **highest sample of the day** from each Mooney flight. The idea: way up there, the air should be above the boundary layer, offering a clearer view of the **background atmosphere**. Plotting those daily “top-of-the-sky” points over time reveals the broader story written in the air above the Pacific. 
 
-<iframe src="https://hellafolk.github.io/img/top_profile_co2.html" width="100%" height="600" style="border:0" loading="lazy"></iframe>
+<iframe src="https://hellafolk.github.io/img/top_profile_co2.html" width="1200" height="600" style="border:0" loading="lazy"></iframe>
 
 The record shows two patterns at once. As Earth breathes, CO₂ rises each as winter comes and falls again in summer, tracing a seasonal cycle of respiration and growth. Layered on top of that rhythm is a steady upward climb — the year-to-year increase in background CO₂.  
 

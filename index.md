@@ -36,7 +36,7 @@ Some questions I’d love to answer:
 
 #### little projects below
 
-[click here](/earthlab_projects/)
+[click here](/earthlab_projects.md/)
 
 
 

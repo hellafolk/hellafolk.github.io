@@ -1,6 +1,6 @@
 ## The Sandhill Crane (*Antigone canadensis*)
 
-Growing up, I watched sandhill cranes nest in the Sierra Nevada Valley with my aunt. Each spring they returned to the flooded meadows, their low, rolling calls echoing across the valley floor. The sight of them—tall, gray, deliberate—marked the change of season as clearly as snowmelt or the first green shoots in the fields.  
+Growing up, I watched sandhill cranes nest in the Sierra Nevada Valley with my aunt. Each spring they returned to the flooded meadows, their low, rolling calls echoing across the valley floor. The sight of them, tall, gray, deliberat, —marked the change of season as clearly as snowmelt or the first green shoots in the fields.  
 
 The sandhill crane is among the oldest extant bird species in North America, with fossil evidence dating back more than two million years (Gerber et al., 2014). Adults are easily identified by their red forecrown, gray plumage often stained with iron-rich mud, and long black legs. Several subspecies occur across the continent, the most widespread being the Greater and Lesser Sandhill Cranes, which differ mainly in size and migration distance.  
 

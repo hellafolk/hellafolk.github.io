@@ -14,19 +14,36 @@ The sandhill crane (Antigone canadensis), considered the oldest extant bird spec
 This analysis of sandhill crane migration is based on occurrence data from the Global Biodiversity Information Facility (GBIF, 2024). Occurrences were linked to terrestrial ecoregions and grouped by month to identify temporal and spatial patterns of movement. Very rare occurrences (two or fewer) were excluded, and the data were normalized by ecoregion size and observation frequency to reduce spatial bias. The resulting dataset provides an overview of annual migration patterns across the western and central United States, with a specific focus on populations within North America.
 
 
-<iframe 
-  src="https://hellafolk.github.io/img/crane_migration.html"
-  style="
-    display: block;
-    margin: 0 auto;
-    border: none;
-    width: 90%;
-    max-width: 1000px;
-    height: 700px;
-    border-radius: 12px;
-  "
-  loading="lazy">
-</iframe>
+<div style="
+  max-width: 1000px;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: inherit;
+">
+  <iframe 
+    src="https://hellafolk.github.io/img/crane_migration.html"
+    style="
+      display: block;
+      width: 100%;
+      height: 750px;
+      border: none;
+      border-radius: 12px;
+      margin: 0 auto;
+      background: #fff;
+    "
+    loading="lazy">
+  </iframe>
+
+  <p style="
+    text-align: left;
+    max-width: 900px;
+    margin: 1rem auto 0 auto;
+    line-height: 1.5;
+  ">
+    Migration is guided by a combination of innate orientation and learned behavior. Young cranes travel with their parents, learning the route and the location of key stopover sites—wetlands, river valleys, and agricultural fields that provide forage and refuge. These sites are critical to the species’ survival; loss of habitat or changes in hydrology along the flyways can alter migration timing and success.
+  </p>
+</div>
+
 
 
 Migration is guided by a combination of innate orientation and learned behavior. Young cranes travel with their parents, learning the route and the location of key stopover sites—wetlands, river valleys, and agricultural fields that provide forage and refuge. These sites are critical to the species’ survival; loss of habitat or changes in hydrology along the flyways can alter migration timing and success.  

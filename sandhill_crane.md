@@ -69,3 +69,8 @@ It would be fascinating to map the sandhill crane’s journey with that in mind,
     style="width: 90%; max-width: 600px; border-radius: 12px;"
   >
 </p>
+
+---
+<small>
+Data credit to: Antigone canadensis (Linnaeus, 1758) in GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2025-10-29.
+

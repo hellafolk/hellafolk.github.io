@@ -5,8 +5,11 @@ layout: default
 
 My aunt showed me the magic of the Sandhill Cranes, nesting in the flooded spring Sierra Valley in Northeast California. Slender, sleek, their red capped head pretuding between cattails and willows. A bird call like no other. We pull over on the dirt road, and watch through binoculars. 
 
-<p align="center">
-  <img src="https://hellafolk.github.io/img/sandhill_pic.jpeg" width="320">
+<p align="center" style="margin: 2rem 0;">
+  <img 
+    src=hellafolk.github.io/img/FullSizeRender.jpeg" 
+    style="width: 90%; max-width: 600px; border-radius: 12px;"
+  >
 </p>
 
 The sandhill crane (Antigone canadensis), considered the oldest extant bird species in North America, has a fossil record dating back at least 2.5 million years (Hall, 1996). Each year, most populations migrate between breeding grounds in the northern United States, Canada, Alaska, and northeastern Siberia and wintering areas in the southern United States and northern Mexico, traveling up to 5,000 kilometers along the Central and Pacific Flyways (Krapu et al., 2011).
@@ -62,7 +65,6 @@ It would be fascinating to map the sandhill crane’s journey with that in mind,
 <p align="center" style="margin: 2rem 0;">
   <img 
     src="https://hellafolk.github.io/img/DeclinationMap_US.png" 
-    alt="Illustration of birds perceiving Earth's magnetic fields"
     style="width: 90%; max-width: 600px; border-radius: 12px;"
   >
 </p>

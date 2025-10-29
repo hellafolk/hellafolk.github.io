@@ -15,20 +15,28 @@ This analysis of sandhill crane migration is based on occurrence data from the G
 
 <div style="
   width: 100%;
-  overflow-x: auto;        /* allow horizontal scroll if needed */
-  -webkit-overflow-scrolling: touch;
+  overflow-x: visible;
+  overflow-y: visible;
+  display: flex;
+  justify-content: center;
   margin: 2rem 0;
 ">
   <div style="
-    width: 1300px;         /* must be >= the real width of your map content */
-    margin: 0 auto;        /* centers the inner block on big screens */
+    position: relative;
+    width: 100%;
+    max-width: 800px;        /* match theme body width */
+    height: 600px;           /* MUST be big enough to show the scaled iframe */
   ">
     <iframe
       src="https://hellafolk.github.io/img/crane_migration.html"
       style="
-        display: block;
-        width: 100%;
-        height: 820px;     /* tall enough for map + slider */
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: scale(0.6);   /* <--- shrink it */
+        width: 1300px;           /* pretend size of real map content */
+        height: 820px;           /* pretend size of real map content */
         border: none;
         border-radius: 12px;
       "

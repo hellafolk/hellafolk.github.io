@@ -15,7 +15,7 @@ This analysis of sandhill crane migration is based on occurrence data from the G
 
 
 <div style="
-  max-width: 1000px;
+  max-width: 2000px;
   margin: 2rem auto;
   text-align: center;
   font-family: inherit;
@@ -25,13 +25,15 @@ This analysis of sandhill crane migration is based on occurrence data from the G
     style="
       display: block;
       width: 100%;
-      height: 750px;
+      height: 800px;
       border: none;
       border-radius: 12px;
       margin: 0 auto;
       background: #fff;
+      overflow: hidden;
     "
-    loading="lazy">
+    loading="lazy"
+    scrolling="no">
   </iframe>
 
   <p style="
@@ -43,6 +45,7 @@ This analysis of sandhill crane migration is based on occurrence data from the G
     Migration is guided by a combination of innate orientation and learned behavior. Young cranes travel with their parents, learning the route and the location of key stopover sites—wetlands, river valleys, and agricultural fields that provide forage and refuge. These sites are critical to the species’ survival; loss of habitat or changes in hydrology along the flyways can alter migration timing and success.
   </p>
 </div>
+
 
 
 

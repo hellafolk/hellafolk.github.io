@@ -1,4 +1,3 @@
-## The Sandhill Crane (*Antigone canadensis*)
 
 Growing up, I watched sandhill cranes nest in the Sierra Nevada Valley with my aunt. Each spring they returned to the flooded meadows, their low, rolling calls echoing across the valley floor. The sight of them, tall, gray, deliberat, —marked the change of season as clearly as snowmelt or the first green shoots in the fields.  
 
@@ -10,4 +9,4 @@ Migration is guided by a combination of innate orientation and learned behavior.
 
 This analysis of sandhill crane migration is based on occurrence data from the Global Biodiversity Information Facility (GBIF, 2024). Occurrences were linked to terrestrial ecoregions and grouped by month to identify temporal and spatial patterns of movement. Very rare occurrences (three or fewer) were excluded. The data were normalized by ecoregion size and observation frequency to reduce spatial bias. The resulting dataset provides an overview of annual migration patterns and highlights the importance of major stopover regions across the western and central United States.  
 
-<iframe src="https://hellafolk.github.io/img/crane_migration.html" width="600" height="600" style="border:0" loading="lazy"></iframe>
+<iframe src="https://hellafolk.github.io/img/crane_migration.html" style="border:0" loading="lazy"></iframe>

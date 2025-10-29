@@ -45,8 +45,6 @@ This analysis of sandhill crane migration is based on occurrence data from the G
     ></iframe>
   </div>
 </div>
-
-
 Migration is guided by a mix of instinct and experience. Young cranes learn the route by flying with their parents, memorizing the landmarks like wetlands, river valleys, and open farm fields that offer food and rest. These stopover sites are vital to migration patterns, but also susceptiple to changes in climate. When they disappear or dry up, the timing and success of migration can shift in ways that ripple through the entire population.
 
 For a long time, scientists thought of bird migration mostly in terms of geography, obvious routes shaped by topography such as mountain ranges, rivers, coastlines, using the familiar terrain to find their way. But newer studies suggest many birds can actually sense the Earth’s magnetic field through specialized light-sensitive receptors in their eyes that respond to magnetic cues. These receptors, likely based on proteins called cryptochromes, allow birds to “see” magnetic fields as faint visual patterns overlaid on their normal vision, giving them an internal compass for orientation even when landmarks or daylight are gone (Wiltschko & Wiltschko, 2019).
@@ -60,3 +58,11 @@ For a long time, scientists thought of bird migration mostly in terms of geograp
 </p>
 
 It would be fascinating to map the sandhill crane’s journey with that in mind, both tracing their path across North America and layering it over the magnetic deviation lines that weave across the continent. Even tracking a few individual cranes could reveal how their routes follow or cross these invisible magnetic contours, offering a glimpse into how they naviagte when they migrate. The interplay between steady magnetic fields and shifting landmarks, rivers that change course, wetlands that dry up, may influence not only how cranes navigate, but how their migratory routes evolve over time.
+
+<p align="center" style="margin: 2rem 0;">
+  <img 
+    src="https://hellafolk.github.io/img/DeclinationMap_US.png" 
+    alt="Illustration of birds perceiving Earth's magnetic fields"
+    style="width: 90%; max-width: 600px; border-radius: 12px;"
+  >
+</p>

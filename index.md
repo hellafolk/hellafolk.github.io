@@ -31,7 +31,7 @@ Some questions I’d love to answer:
 ---
 
 <p align="center">
-  <img src="https://hellafolk.github.io/img/FullSizeRender.jpeg" width="320">
+  <img src="https://hellafolk.github.io/img/EA187F47-7744-4034-92E6-BE4656E0DEB2_1_105_c.jpeg" width="320">
 </p>
 
 ---

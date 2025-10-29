@@ -13,38 +13,31 @@ The sandhill crane (Antigone canadensis), considered the oldest extant bird spec
 
 This analysis of sandhill crane migration is based on occurrence data from the Global Biodiversity Information Facility (GBIF, 2024). Occurrences were linked to terrestrial ecoregions and grouped by month to identify temporal and spatial patterns of movement. Very rare occurrences (two or fewer) were excluded, and the data were normalized by ecoregion size and observation frequency to reduce spatial bias. The resulting dataset provides an overview of annual migration patterns across the western and central United States, with a specific focus on populations within North America.
 
-
 <div style="
-  max-width: 2000px;
-  margin: 2rem auto;
-  text-align: center;
-  font-family: inherit;
+  width: 100%;
+  overflow-x: auto;        /* allow horizontal scroll if needed */
+  -webkit-overflow-scrolling: touch;
+  margin: 2rem 0;
 ">
-  <iframe 
-    src="https://hellafolk.github.io/img/crane_migration.html"
-    style="
-      display: block;
-      width: 100%;
-      height: 800px;
-      border: none;
-      border-radius: 12px;
-      margin: 0 auto;
-      background: #fff;
-      overflow: hidden;
-    "
-    loading="lazy"
-    scrolling="no">
-  </iframe>
-
-  <p style="
-    text-align: left;
-    max-width: 900px;
-    margin: 1rem auto 0 auto;
-    line-height: 1.5;
+  <div style="
+    width: 1300px;         /* must be >= the real width of your map content */
+    margin: 0 auto;        /* centers the inner block on big screens */
   ">
-    Migration is guided by a combination of innate orientation and learned behavior. Young cranes travel with their parents, learning the route and the location of key stopover sites—wetlands, river valleys, and agricultural fields that provide forage and refuge. These sites are critical to the species’ survival; loss of habitat or changes in hydrology along the flyways can alter migration timing and success.
-  </p>
+    <iframe
+      src="https://hellafolk.github.io/img/crane_migration.html"
+      style="
+        display: block;
+        width: 100%;
+        height: 820px;     /* tall enough for map + slider */
+        border: none;
+        border-radius: 12px;
+      "
+      loading="lazy"
+      scrolling="no"
+    ></iframe>
+  </div>
 </div>
+
 
 
 

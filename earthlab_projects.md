@@ -14,3 +14,10 @@ A small collection of maps.
 
 Some simple climate analysis and visualizations I’m working on.
 
+---
+
+### [Sandhill Crane Migration](sandhill_crane.md)
+
+The greatest aviators.
+
+

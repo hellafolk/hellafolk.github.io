@@ -29,7 +29,7 @@ This analysis of sandhill crane migration is based on occurrence data from the G
     position: relative;
     width: 100%;
     max-width: 800px;        /* match theme body width */
-    height: 600px;           /* MUST be big enough to show the scaled iframe */
+    height: 500px;           /* MUST be big enough to show the scaled iframe */
   ">
     <iframe
       src="https://hellafolk.github.io/img/crane_migration.html"

@@ -81,7 +81,7 @@ In the future, I’d love to scale this kind of analysis beyond Southeast Alaska
     height: 500px;           /* MUST be big enough to show the scaled iframe */
   ">
     <iframe
-      src="https://hellafolk.github.io/img/ndvi_trend_2000_2023_final.html"
+      src="https://hellafolk.github.io/img/ndvi_trend_2000_2023_embedded.html"
       style="
         position: absolute;
         top: 0;

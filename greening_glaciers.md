@@ -26,7 +26,7 @@ A big part of this work is seeing how satellite data can complement JIRP’s in-
 
 <p align="center">
   <img 
-    src="hellafolk.github.io/img/ndvi_2023_over_alaska.html" 
+    src="https://hellafolk.github.io/img/ndvi_2023_over_alaska.html" 
     style="width: 70%; max-width: 300px; border-radius: 12px;"
   >
 </p>

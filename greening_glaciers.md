@@ -20,7 +20,6 @@ The Juneau Icefield Research Program (JIRP) is built around long-term, boots-on-
 
 For my project, I wanted to look at the landscape around that ice. I started with MODIS NDVI data for summers from 2000–2023 (June–September) to see whether vegetation has been increasing as the glaciers thin and retreat. I was especially interested in the Juneau area—places like the Taku, Llewellyn, and Mendenhall, but the more I looked, the more it made sense to widen the region. So I expanded the analysis to include most of Southeast Alaska and parts of coastal British Columbia to get a clearer picture of how widespread these patterns might be.
 
-
 <div style="
   width: 100%;
   overflow-x: visible;
@@ -67,13 +66,38 @@ I first tried to visualize the NDVI changes by creating a GIF of the summers fro
 
 In the future, I’d love to scale this kind of analysis beyond Southeast Alaska. Part of me wants to look at the entire Arctic and see how vegetation, permafrost change, and ice retreat show up in long-term NDVI records. I’m also interested in comparing these landscape shifts with atmospheric signals—like the rise in methane concentrations—as the Arctic continues to warm and melt. There’s a lot of potential in pairing satellite data with atmospheric measurements, and I’d like to keep exploring where those connections lead.
 
-<p align="center" style="margin: 2rem 0;">
-  <img 
-    src="https://hellafolk.github.io/img/ndvi_trend_2000_2023_final.html" 
-    style="width: 90%; max-width: 600px; border-radius: 12px;"
-  >
-</p>
-
+<div style="
+  width: 100%;
+  overflow-x: visible;
+  overflow-y: visible;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+">
+  <div style="
+    position: relative;
+    width: 100%;
+    max-width: 800px;        /* match theme body width */
+    height: 500px;           /* MUST be big enough to show the scaled iframe */
+  ">
+    <iframe
+      src="https://hellafolk.github.io/img/ndvi_trend_2000_2023_final.html"
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: scale(0.6);   /* <--- shrink it */
+        width: 1300px;           /* pretend size of real map content */
+        height: 820px;           /* pretend size of real map content */
+        border: none;
+        border-radius: 12px;
+      "
+      loading="lazy"
+      scrolling="no"
+    ></iframe>
+  </div>
+</div>
 ---
 <small>
 Data credit to: Antigone canadensis (Linnaeus, 1758) in GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2025-10-29.

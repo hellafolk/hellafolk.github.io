@@ -69,7 +69,7 @@ I first tried to visualize the NDVI changes by creating a GIF of the summers fro
   >
 </p>
 
-In the future, I’d love to scale this kind of analysis beyond Southeast Alaska. Part of me wants to look at the entire Arctic and see how vegetation, permafrost change, and ice retreat show up in long-term NDVI records. I’m also interested in comparing these landscape shifts with atmospheric signals—like the rise in methane concentrations—as the Arctic continues to warm and melt. There’s a lot of potential in pairing satellite data with atmospheric measurements, and I’d like to keep exploring where those connections lead.
+In the future, I’d love to scale this kind of analysis beyond Southeast Alaska. Part of me wants to look at the entire Arctic and see how vegetation, permafrost change, and ice retreat show up in long-term NDVI records. I’m also interested in comparing these landscape shifts with atmospheric signals, like the rise in methane concentrations, as the Arctic continues to warm and melt. There’s a lot of potential in pairing satellite data with atmospheric measurements, and I’d like to keep exploring where those connections lead.
 
 <div style="
   width: 100%;

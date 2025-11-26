@@ -21,7 +21,7 @@ As the world changes faster than we ever expected, our desire to measure and und
 </div>
 ---
 
-The Juneau Icefield Research Program (JIRP) is built around long-term, boots-on-the-ground field work... mass balance measurements, snow pits, firn stratigraphy, and stable-isotope sampling all of which help us understand how the icefield is changing over time. It’s one of the few places where decades of field observations line up directly with the landscapes we move through every day.
+The Juneau Icefield Research Program (JIRP) is built around long-term, boots-on-the-ground field work... mass balance measurements, snow pits, firn stratigraphy, and stable-isotope sampling all of which help us understand how the icefield is changing over time. It’s one of the few places where decades of field observations line up directly with the landscapes every day.
 
 For my project, I wanted to look at the landscape around that ice. I started with MODIS NDVI data for summers from 2000–2023 (June–September) to see whether vegetation has been increasing as the glaciers thin and retreat. I was especially interested in the Juneau area—places like the Taku, Llewellyn, and Mendenhall, but the more I looked, the more it made sense to widen the region. So I expanded the analysis to include most of Southeast Alaska and parts of coastal British Columbia to get a clearer picture of how widespread these patterns might be.
 

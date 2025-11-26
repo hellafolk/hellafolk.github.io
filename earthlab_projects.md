@@ -24,5 +24,5 @@ The greatest aviators.
 
 ### [Glacier Greening](greening_glaciers.md)
 
-A look ar vegetation in southeast Alaska
+A look at vegetation in southeast Alaska
 

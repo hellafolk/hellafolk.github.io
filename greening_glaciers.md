@@ -22,17 +22,38 @@ For my project, I wanted to look at the landscape around that ice. I started wit
 
 A big part of this work is seeing how satellite data can complement JIRP’s in-situ measurements. Field observations give us the details (snow layers, density, melt patterns) while the spatial satellite record helps show the broader ecological response happening at the margins of the ice. Looking at both together feels like the most complete way to understand how the icefield and the surrounding landscape are shifting with time.
 
----
-
-<p align="center">
-  <img 
-    src="https://hellafolk.github.io/img/ndvi_2023_over_alaska.html" 
-    style="width: 70%; max-width: 300px; border-radius: 12px;"
-  >
-</p>
-
----
-
+<div style="
+  width: 100%;
+  overflow-x: visible;
+  overflow-y: visible;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+">
+  <div style="
+    position: relative;
+    width: 100%;
+    max-width: 800px;        /* match theme body width */
+    height: 500px;           /* MUST be big enough to show the scaled iframe */
+  ">
+    <iframe
+      src="https://hellafolk.github.io/img/ndvi_2023_over_alaska.html"
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: scale(0.6);   /* <--- shrink it */
+        width: 1300px;           /* pretend size of real map content */
+        height: 820px;           /* pretend size of real map content */
+        border: none;
+        border-radius: 12px;
+      "
+      loading="lazy"
+      scrolling="no"
+    ></iframe>
+  </div>
+</div>
 I first tried to visualize the NDVI changes by creating a GIF of the summers from 2000–2023. It helped show the general shifts year to year, but the subtle trends were hard to see when everything was moving. To get a clearer picture, I plotted the NDVI values through time and calculated the root-mean-square for each season. That made it easier to see the overall direction of vegetation change around the icefields and how the signal has evolved as more land becomes exposed.
 
 <p align="center" style="margin: 2rem 0;">

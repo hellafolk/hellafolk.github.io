@@ -63,7 +63,7 @@ I first tried to visualize the NDVI changes by creating a GIF of the summers fro
 
 <p align="center" style="margin: 2rem 0;">
   <img 
-    src="https://hellafolk.github.io/img/juneau_ndvi_summer_timelapse_loop.gif" 
+    src="https://hellafolk.github.io/img/juneau_ndvi_summer_timelapse_new.gif" 
     alt="Illustration of birds perceiving Earth's magnetic fields"
     style="width: 90%; max-width: 600px; border-radius: 12px;"
   >

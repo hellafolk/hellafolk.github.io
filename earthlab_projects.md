@@ -22,7 +22,7 @@ The greatest aviators.
 
 ---
 
-### [Glacier Greening](sandhill_crane.md)
+### [Glacier Greening](greening_glaciers.md)
 
 A look ar vegetation in southeast Alaska
 

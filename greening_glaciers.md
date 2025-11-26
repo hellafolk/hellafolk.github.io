@@ -20,7 +20,6 @@ The Juneau Icefield Research Program (JIRP) is built around long-term, boots-on-
 
 For my project, I wanted to look at the landscape around that ice. I started with MODIS NDVI data for summers from 2000–2023 (June–September) to see whether vegetation has been increasing as the glaciers thin and retreat. I was especially interested in the Juneau area—places like the Taku, Llewellyn, and Mendenhall, but the more I looked, the more it made sense to widen the region. So I expanded the analysis to include most of Southeast Alaska and parts of coastal British Columbia to get a clearer picture of how widespread these patterns might be.
 
-A big part of this work is seeing how satellite data can complement JIRP’s in-situ measurements. Field observations give us the details (snow layers, density, melt patterns) while the spatial satellite record helps show the broader ecological response happening at the margins of the ice. Looking at both together feels like the most complete way to understand how the icefield and the surrounding landscape are shifting with time.
 
 <div style="
   width: 100%;
@@ -54,6 +53,8 @@ A big part of this work is seeing how satellite data can complement JIRP’s in-
     ></iframe>
   </div>
 </div>
+A big part of this work is seeing how satellite data can complement JIRP’s in-situ measurements. Field observations give us the details (snow layers, density, melt patterns) while the spatial satellite record helps show the broader ecological response happening at the margins of the ice. Looking at both together feels like the most complete way to understand how the icefield and the surrounding landscape are shifting with time.
+
 I first tried to visualize the NDVI changes by creating a GIF of the summers from 2000–2023. It helped show the general shifts year to year, but the subtle trends were hard to see when everything was moving. To get a clearer picture, I plotted the NDVI values through time and calculated the root-mean-square for each season. That made it easier to see the overall direction of vegetation change around the icefields and how the signal has evolved as more land becomes exposed.
 
 <p align="center" style="margin: 2rem 0;">

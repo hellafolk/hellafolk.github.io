@@ -8,7 +8,10 @@ As the world changes faster than we ever expected, our desire to measure and und
 ---
 
 <p align="center">
-  <img src="https:/hellafolk.github.io/img/agsny_61720_full+copy+3.webp" width="320">
+  <img 
+    src="https://hellafolk.github.io/img/agsny_61720_full+copy+3.webp"
+    style="width: 70%; max-width: 300px; border-radius: 12px;"
+  >
 </p>
 
 ---

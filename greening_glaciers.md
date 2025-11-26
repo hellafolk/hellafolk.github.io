@@ -10,10 +10,15 @@ As the world changes faster than we ever expected, our desire to measure and und
 <p align="center">
   <img 
     src="https://hellafolk.github.io/img/agsny_61720_full+copy+3.webp"
-    style="width: 70%; max-width: 300px; border-radius: 12px;"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
   >
 </p>
-
+<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
+    <em>Taken during fieldwork on the Twin Glacier, 1948. Photo by William O’Field. Source: 
+    <a href="https://www.juneauicefield.org/history" target="_blank">Juneau Icefield Research Program</a>.</em>
+  </p>
+</div>
 ---
 
 The Juneau Icefield Research Program (JIRP) is built around long-term, boots-on-the-ground field work... mass balance measurements, snow pits, firn stratigraphy, and stable-isotope sampling all of which help us understand how the icefield is changing over time. It’s one of the few places where decades of field observations line up directly with the landscapes we move through every day.
@@ -100,5 +105,6 @@ In the future, I’d love to scale this kind of analysis beyond Southeast Alaska
 </div>
 ---
 <small>
-Data credit to: Antigone canadensis (Linnaeus, 1758) in GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2025-10-29.
+Data credit to: MODIS/Terra Vegetation Indices (MOD13Q1 v6.1), NASA LP DAAC (Didan, 2021). https://doi.org/10.5067/MODIS/MOD13Q1.061
+</small>
 

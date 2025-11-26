@@ -69,7 +69,7 @@ In the future, I’d love to scale this kind of analysis beyond Southeast Alaska
 
 <p align="center" style="margin: 2rem 0;">
   <img 
-    src="https://hellafolk.github.io/img/ndvi_trend_2000_2023 (1).html" 
+    src="https://hellafolk.github.io/img/ndvi_trend_2000_2023_final.html" 
     style="width: 90%; max-width: 600px; border-radius: 12px;"
   >
 </p>

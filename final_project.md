@@ -57,34 +57,28 @@ Specifically:
 ### 3.1 NOAA GML MBL Product
 - Zonal, smoothed, globally representative surface CO₂.
 - Ideal for large-scale climatological work.
-- May not capture:
-  - regional gradients
-  - ENSO-related anomalies
-  - upwelling-driven variability in the tropical Pacific
+- Traditionally used for flux calculations.
 
 ### 3.2 CarbonTracker 2024 (CT2024)
 - 3D global atmospheric inversion model.
 - Provides 3-hourly xCO₂ fields at relatively high spatial resolution.
-- Advantages:
-  - Better representation of synoptic variability.
-  - Captures transport and surface flux-driven anomalies.
-- Limitations:
-  - Still a model; transport and flux errors influence results.
 
 ### 3.3 TAO/TRITON Mooring CO₂ (Air)
 - Direct in-situ atmospheric CO₂ measurements.
-- Provides “ground truth” in a region with few atmospheric observations.
+- Provides “ground truth” in a region with very sparse atmospheric observations.
 - High-frequency, relatively clean boundary-layer signal.
 
 ### 3.4 Shipboard Atmospheric CO₂ (2025 → adjusted to 2024)
 - Atmospheric xCO₂ measured along a ship transect in early 2025.
-- To compare with 2024 datasets, I convert it using the Mauna Loa annual growth rate:
+- To compare with 2024 datasets, the values are converted back to approximate 2024 levels using the Mauna Loa annual CO₂ growth rate.
 
-\[
-xCO_2^{2024 \; \text{est}} = xCO_2^{2025 \; \text{meas}} - \Delta CO_2^{ML}
-\]
+The adjustment is:
 
-- This gives a first-order 2024-equivalent dataset for comparison with CT2024 and MBL.
+$$
+xCO_2^{2024\,(est)} = xCO_2^{2025\,(meas)} - \Delta CO_2^{ML}
+$$
+
+- This provides a first-order 2024-equivalent dataset for comparison with CT2024 and the NOAA MBL product.
 
 ---
 

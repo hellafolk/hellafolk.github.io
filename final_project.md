@@ -17,22 +17,22 @@ Given the importance of the equatorial Pacific to the global carbon cycle, and t
 
 ## 2. Core Research Question
 
-Estimating air–sea CO₂ flux requires knowing the difference between seawater (\( pCO_{2w} \)) and atmospheric (\( pCO_{2a} \)) CO₂. This gradient is often written as:
+Estimating air–sea CO₂ flux requires knowing the difference between seawater (pCO₂₍w₎) and atmospheric (pCO₂₍a₎) CO₂. This gradient is often written as:
 
-\[
-F_{\mathrm{CO_2}} = k \cdot s \cdot \left(pCO_{2w} - pCO_{2a}\right) = k \cdot s \cdot \Delta pCO_2
-\]
+$$
+F_{\mathrm{CO_2}} = k \cdot s \cdot (pCO_{2w} - pCO_{2a}) = k \cdot s \cdot \Delta pCO_2
+$$
 
 where:
 
-- \( F_{\mathrm{CO_2}} \) is the air–sea CO₂ flux,
-- \( k \) is the gas transfer velocity (controlled largely by wind speed),
-- \( s \) is the solubility of CO₂ in seawater,
-- \( \Delta pCO_2 \) is the air–sea CO₂ gradient.
+- **F<sub>CO₂</sub>** is the air–sea CO₂ flux,  
+- **k** is the gas transfer velocity (largely controlled by wind speed),  
+- **s** is the solubility of CO₂ in seawater,  
+- **ΔpCO₂** is the air–sea CO₂ gradient.
 
-Because \( F_{\mathrm{CO_2}} \) depends linearly on \( pCO_{2a} \), even small biases in the atmospheric CO₂ field can propagate into large uncertainties in the resulting flux. A bias of just **1–2 ppm** in atmospheric CO₂ corresponds to a **1–2 µatm** shift in \( \Delta pCO_2 \). When this offset is applied across realistic values of \( k \) and \( s \) over a basin-scale area (such as the equatorial Pacific), it can change regional CO₂ flux estimates by **tens of teragrams of carbon (TgC)**. When integrated globally and over multiple years, persistent atmospheric biases of this size can accumulate into **gigaton-scale errors** in annual air–sea CO₂ flux budgets.
+Because the flux depends directly on atmospheric CO₂, even small biases in pCO₂₍a₎ can produce large uncertainties in the resulting flux. A difference of just **1–2 ppm** in atmospheric CO₂ corresponds to a **1–2 µatm** shift in ΔpCO₂. When applied across realistic values of k and s over a basin-scale region such as the equatorial Pacific, this can change CO₂ flux estimates by **tens of teragrams of carbon (TgC)**. Over global scales and multiple years, persistent biases of this size can accumulate into **gigaton-scale errors** in annual CO₂ budgets.
 
-This sensitivity makes the choice of atmospheric CO₂ dataset critical. In the equatorial Pacific, where upwelling, circulation, and climate variability produce strong gradients, relying on zonally averaged products may miss important structure in \( pCO_{2a} \).
+This sensitivity makes the choice of atmospheric CO₂ dataset critical. In the equatorial Pacific—where upwelling, circulation, and climate variability create strong gradients—using zonally averaged products may obscure important structure in pCO₂₍a₎ and lead to inaccurate flux estimates.
 
 **Research question:**  
 

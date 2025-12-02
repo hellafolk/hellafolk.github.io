@@ -17,15 +17,39 @@ Given the importance of the equatorial Pacific to the global carbon cycle, and t
 
 ## 2. Core Research Question
 
-**How different are airside CO₂ constraints in the equatorial Pacific when using:**
+Estimating air–sea CO₂ flux requires knowing the difference between seawater \( pCO_{2w} \) and atmospheric \( pCO_{2a} \). This gradient is often expressed as:
 
-1. **NOAA GML MBL CO₂ product**
-2. **CarbonTracker 2024 xCO₂ fields**
-3. **Direct atmospheric measurements** from:
-   - TAO/TRITON equatorial moorings  
-   - A 2025 research ship transect (adjusted back to a 2024 reference year using Mauna Loa growth rates)
+\[
+F_{\mathrm{CO_2}} = k \cdot s \cdot (pCO_{2w} - pCO_{2a}) = k \cdot s \cdot \Delta pCO_2
+\]
 
-**And do those differences meaningfully change the resulting air–sea CO₂ flux estimates?**
+where:
+
+- \( F_{\mathrm{CO_2}} \) is the air–sea CO₂ flux,  
+- \( k \) is the gas transfer velocity (controlled largely by wind speed),  
+- \( s \) is the solubility of CO₂ in seawater,  
+- \( \Delta pCO_2 \) is the air–sea CO₂ gradient.
+
+Because the flux term depends directly on the atmospheric CO₂ value, even small biases in \( pCO_{2a} \) can propagate into large errors in calculated CO₂ flux. A difference of just **1–2 ppm** in atmospheric CO₂ corresponds to a **1–2 µatm** shift in \( pCO_2 \), and when this is multiplied by realistic values of \( k \) and \( s \) across a basin-scale area, it can change regional CO₂ flux estimates by **tens of teragrams of carbon (TgC)**. When integrated globally, persistent atmospheric biases of this size can lead to **gigaton-scale errors** in annual flux budgets.
+
+This sensitivity means that the choice of atmospheric CO₂ product is critical—especially over regions like the equatorial Pacific, where strong upwelling and low in-situ atmospheric measurement density make the true atmospheric signal highly variable and difficult to represent with zonally averaged products.
+
+### Research Question
+
+**How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?**
+
+Specifically:
+
+1. How do 2024 atmospheric CO₂ values differ between  
+   - the NOAA GML Marine Boundary Layer (MBL) product,  
+   - CarbonTracker 2024 (CT2024), and  
+   - direct atmospheric measurements from equatorial Pacific moorings?
+
+2. How well do these products represent the atmospheric conditions encountered along a 2025 ship track (adjusted back to 2024 levels using the Mauna Loa CO₂ growth rate)?
+
+3. Do these differences meaningfully alter calculated air–sea CO₂ flux, and if so, by how much?
+
+Because the flux calculation is directly tied to \( pCO_{2a} \), answering this question is essential for determining whether commonly used atmospheric CO₂ products provide an accurate boundary condition for estimating CO₂ flux in one of the most dynamic and climatically important ocean regions on Earth.
 
 ---
 

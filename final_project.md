@@ -17,26 +17,26 @@ Given the importance of the equatorial Pacific to the global carbon cycle, and t
 
 ## 2. Core Research Question
 
-Estimating air–sea CO₂ flux requires knowing the difference between seawater \( pCO_{2w} \) and atmospheric \( pCO_{2a} \). This gradient is often expressed as:
+Estimating air–sea CO₂ flux requires knowing the difference between seawater (\( pCO_{2w} \)) and atmospheric (\( pCO_{2a} \)) CO₂. This gradient is often written as:
 
 \[
-F_{\mathrm{CO_2}} = k \cdot s \cdot (pCO_{2w} - pCO_{2a}) = k \cdot s \cdot \Delta pCO_2
+F_{\mathrm{CO_2}} = k \cdot s \cdot \left(pCO_{2w} - pCO_{2a}\right) = k \cdot s \cdot \Delta pCO_2
 \]
 
 where:
 
-- \( F_{\mathrm{CO_2}} \) is the air–sea CO₂ flux,  
-- \( k \) is the gas transfer velocity (controlled largely by wind speed),  
-- \( s \) is the solubility of CO₂ in seawater,  
+- \( F_{\mathrm{CO_2}} \) is the air–sea CO₂ flux,
+- \( k \) is the gas transfer velocity (controlled largely by wind speed),
+- \( s \) is the solubility of CO₂ in seawater,
 - \( \Delta pCO_2 \) is the air–sea CO₂ gradient.
 
-Because the flux term depends directly on the atmospheric CO₂ value, even small biases in \( pCO_{2a} \) can propagate into large errors in calculated CO₂ flux. A difference of just **1–2 ppm** in atmospheric CO₂ corresponds to a **1–2 µatm** shift in \( pCO_2 \), and when this is multiplied by realistic values of \( k \) and \( s \) across a basin-scale area, it can change regional CO₂ flux estimates by **tens of teragrams of carbon (TgC)**. When integrated globally, persistent atmospheric biases of this size can lead to **gigaton-scale errors** in annual flux budgets.
+Because \( F_{\mathrm{CO_2}} \) depends linearly on \( pCO_{2a} \), even small biases in the atmospheric CO₂ field can propagate into large uncertainties in the resulting flux. A bias of just **1–2 ppm** in atmospheric CO₂ corresponds to a **1–2 µatm** shift in \( \Delta pCO_2 \). When this offset is applied across realistic values of \( k \) and \( s \) over a basin-scale area (such as the equatorial Pacific), it can change regional CO₂ flux estimates by **tens of teragrams of carbon (TgC)**. When integrated globally and over multiple years, persistent atmospheric biases of this size can accumulate into **gigaton-scale errors** in annual air–sea CO₂ flux budgets.
 
-This sensitivity means that the choice of atmospheric CO₂ product is critical—especially over regions like the equatorial Pacific, where strong upwelling and low in-situ atmospheric measurement density make the true atmospheric signal highly variable and difficult to represent with zonally averaged products.
+This sensitivity makes the choice of atmospheric CO₂ dataset critical. In the equatorial Pacific, where upwelling, circulation, and climate variability produce strong gradients, relying on zonally averaged products may miss important structure in \( pCO_{2a} \).
 
-### Research Question
+**Research question:**  
 
-**How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?**
+How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?
 
 Specifically:
 
@@ -45,11 +45,10 @@ Specifically:
    - CarbonTracker 2024 (CT2024), and  
    - direct atmospheric measurements from equatorial Pacific moorings?
 
-2. How well do these products represent the atmospheric conditions encountered along a 2025 ship track (adjusted back to 2024 levels using the Mauna Loa CO₂ growth rate)?
+2. How well do these products represent the atmospheric conditions encountered along a 2025 ship track, after adjusting those measurements back to 2024 levels using the Mauna Loa CO₂ growth rate?
 
-3. Do these differences meaningfully alter calculated air–sea CO₂ flux, and if so, by how much?
+3. To what extent do the resulting differences in \( pCO_{2a} \) change calculated air–sea CO₂ flux, and are those differences large enough to matter for regional or global carbon budgets?
 
-Because the flux calculation is directly tied to \( pCO_{2a} \), answering this question is essential for determining whether commonly used atmospheric CO₂ products provide an accurate boundary condition for estimating CO₂ flux in one of the most dynamic and climatically important ocean regions on Earth.
 
 ---
 

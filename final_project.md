@@ -55,30 +55,35 @@ Specifically:
 ## 3. Atmospheric CO₂ Data Sources
 
 ### 3.1 NOAA GML MBL Product
-- Zonal, smoothed, globally representative surface CO₂.
-- Ideal for large-scale climatological work.
-- Traditionally used for flux calculations.
+- A zonally averaged, smoothed reference surface CO₂ product.
+- Derived from a global network of marine flask and in-situ sites.
+- Traditonally used for large-scale climatological work.
 
 ### 3.2 CarbonTracker 2024 (CT2024)
-- 3D global atmospheric inversion model.
-- Provides 3-hourly xCO₂ fields at relatively high spatial resolution.
+- A 3D global atmospheric inversion model that simulates CO₂ concentration fields.
+- Provides 3-hourly xCO₂ at relatively high spatial resolution.
 
-### 3.3 TAO/TRITON Mooring CO₂ (Air)
-- Direct in-situ atmospheric CO₂ measurements.
-- Provides “ground truth” in a region with very sparse atmospheric observations.
-- High-frequency, relatively clean boundary-layer signal.
+### 3.3 TAO/TRITON Mooring Atmospheric CO₂
+- Direct, in-situ atmospheric CO₂ measurements from equatorial moorings.
+- Typically collected using non-dispersive infrared (NDIR) or related low-frequency sensors.
+- Measurement resolution is lower than shipboard Picarro systems.
+- Provides long-term, stable boundary-layer measurements.
 
-### 3.4 Shipboard Atmospheric CO₂ (2025 → adjusted to 2024)
-- Atmospheric xCO₂ measured along a ship transect in early 2025.
-- To compare with 2024 datasets, the values are converted back to approximate 2024 levels using the Mauna Loa annual CO₂ growth rate.
 
-The adjustment is:
+### 3.4 Shipboard Atmospheric CO₂ (Picarro; 2025 → adjusted to 2024)
+- Atmospheric xCO₂ measured using a high-precision Picarro cavity ring-down spectrometer (CRDS) G2301.
+- Picarro provides:
+  - High sampling frequency 
+  - High precision
+  - Continuous measurements along a ship track.
+
+To compare the 2025 shipboard measurements with 2024 products (MBL and CT2024), the values are adjusted using the Mauna Loa annual CO₂ growth rate:
 
 $$
 xCO_2^{2024\,(est)} = xCO_2^{2025\,(meas)} - \Delta CO_2^{ML}
 $$
 
-- This provides a first-order 2024-equivalent dataset for comparison with CT2024 and the NOAA MBL product.
+This provides a first-order 2024-equivalent ship dataset suitable for comparison with CT2024, MBL, and mooring observations.
 
 ---
 

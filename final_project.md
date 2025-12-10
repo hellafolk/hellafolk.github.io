@@ -133,3 +133,34 @@ Specifically:
   **ship CO₂**, **MBL CO₂**, and **CarbonTracker PBL CO₂**,  
   enabling residual analysis and evaluation of model performance along the track.
 
+---
+
+## **Preliminary Results**
+
+I initially expected **CarbonTracker PBL CO₂** to match the shipboard atmospheric measurements most closely, since it resolves more spatial structure than the NOAA MBL product. However, the comparison showed a more nuanced result.
+
+### **1. CarbonTracker captured gradients but showed a positive bias**
+
+- CarbonTracker reproduced the **interhemispheric CO₂ gradient**, including the transition from northern-hemisphere winter air to southern-hemisphere summer air.  
+- Despite capturing this large-scale structure, **CarbonTracker’s CO₂ values were consistently higher** than the shipboard observations along most of the track.  
+- This suggests that while CarbonTracker preserves realistic spatial variability, it may introduce a **systematic bias** that inflates ΔpCO₂ and affects air–sea flux estimates.
+
+### **2. The NOAA MBL product was smoother but closer in mean value**
+
+- The MBL product is intentionally smooth and does not resolve the regional features seen in CarbonTracker or the ship data.  
+- Even so, the **overall mean value of MBL CO₂ aligned more closely with the shipboard measurements**.  
+- This implies that MBL may be **bias-reduced on average**, but less representative of real atmospheric variability in the equatorial Pacific.
+
+### **3. Trade-offs between the two atmospheric datasets**
+
+The comparison indicates that **neither dataset is uniformly superior**:
+
+- **CarbonTracker** preserves spatial structure but may carry a positive bias relative to real atmospheric conditions.  
+- **MBL** is smoother and lacks variability, but its average value matches the observations more closely.
+
+### **4. Importance of direct atmospheric measurements**
+
+For air–sea CO₂ flux calculations, **having only seawater pCO₂ is not enough**.  
+A high-resolution atmospheric CO₂ measurement system—such as the Picarro analyzer used on the ship—can capture subtle gradients and variability that neither MBL nor CarbonTracker fully resolves. These differences can meaningfully alter ΔpCO₂ and therefore the resulting flux estimates.
+
+

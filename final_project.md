@@ -68,6 +68,26 @@ Specifically:
 
 ---
 
+<div style="
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+">
+  <img
+    src="https://hellafolk.github.io/img/co2_surface_movie_time_cropped.gif"
+    alt="Animated CO₂ field, June–July 2008"
+    style="
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    "
+  />
+</div>
+
+---
+
 ### **Preliminary Data**
 
 - In early 2025, I measured high-frequency atmospheric CO₂ with a Picarro analyzer onboard the ro-ro ship **M/V *Tysla*** during its transit across the equatorial Pacific.

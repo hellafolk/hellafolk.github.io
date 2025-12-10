@@ -20,8 +20,7 @@ Because the equatorial Pacific plays an outsized role in the global carbon cycle
 </p>
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
-    <em>Taken during fieldwork on the Twin Glacier, 1948. Photo by William O’Field. Source: 
-    <a href="https://www.juneauicefield.org/history" target="_blank">Juneau Icefield Research Program</a>.</em>
+    <em>Shiptrack: Area of Interest
   </p>
 </div>
 ---
@@ -64,7 +63,12 @@ This sensitivity makes the choice of atmospheric CO₂ dataset critical. In the 
     "
   />
 </div>
-
+<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
+    <em>CarbonTracker, Source: 
+    <a href="https://gml.noaa.gov/ccgg/carbontracker/" target="_blank">NOAA GML</a>.</em>
+  </p>
+</div>
 ---
 
 **How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?**

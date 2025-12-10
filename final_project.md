@@ -54,16 +54,19 @@ Specifically:
 - To compare these 2025 observations with **2024 atmospheric CO₂ products** (NOAA MBL and CarbonTracker PBL CO₂), I estimated what the shipboard CO₂ values *would have been* in 2024.
 
 - I used the **Mauna Loa 2024 annual growth rate**:  
-  \[
-  \Delta CO_{2,\text{MLO},2024} = 3.33 \pm 0.11 \text{ ppm}
-  \]
+  `ΔCO2_MLO,2024 = 3.33 ± 0.11 ppm`
 
 - For each ship measurement, I created a *“2024-equivalent”* atmospheric CO₂ value by subtracting this growth rate:  
-  \[
-  CO_{2,\text{ship,2024 equiv}} = CO_{2,\text{ship,2025}} - 3.33 \text{ ppm}
-  \]
+  `CO2_ship,2024_equiv = CO2_ship,2025 − 3.33 ppm`
 
 - I also shifted the 2025 day-of-year by **–1** to align with the 2024 seasonal cycle (since 2024 was a leap year).
+
+
+
+
+
+
+
 
 
 

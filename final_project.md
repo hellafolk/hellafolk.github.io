@@ -239,8 +239,6 @@ A high-resolution atmospheric CO₂ measurement system—such as the Picarro ana
 
 ## References
 
-## References
-
 1. Takahashi, T., Sutherland, S. C., Wanninkhof, R., et al. (2009). *Climatological mean and decadal changes in surface ocean pCO₂, and net sea–air CO₂ flux over the global oceans.* Deep-Sea Research II, 56, 554–577. https://doi.org/10.1016/j.dsr2.2008.12.009
 
 2. Masarie, K. A., Peters, W., Jacobson, A. R., & Tans, P. P. (2014). *Seasonally adjusted atmospheric CO₂ at marine boundary layer sites, 1979–2013.* NOAA Earth System Research Laboratory. https://gml.noaa.gov/
@@ -250,4 +248,9 @@ A high-resolution atmospheric CO₂ measurement system—such as the Picarro ana
 4. Fay, A. R., & McKinley, G. A. (2018). *Global ocean biogeochemistry: A data-based synthesis.* Global Biogeochemical Cycles, 32(3), 463–485. https://doi.org/10.1002/2017GB005839
 
 5. Rella, C. W., Chen, H., Andrews, A. E., et al. (2015). *High-precision greenhouse gas measurements from Picarro cavity ring-down spectrometers.* Atmospheric Measurement Techniques, 8, 411–425. https://doi.org/10.5194/amt-8-411-2015
+
+6. CarbonTracker Team. (2024). *CarbonTracker CT2024 atmospheric CO₂ mole fraction product.* NOAA Global Monitoring Laboratory. https://doi.org/10.15138/CRVS-CT2024
+
+7. NOAA Global Monitoring Laboratory. (2024). *Marine Boundary Layer (MBL) Reference CO₂ Product.* NOAA Earth System Research Laboratory. https://gml.noaa.gov/ccgg/mbl/
+
 

@@ -5,11 +5,11 @@ layout: default
 
 ## 1. Project Motivation
 
-Accurate estimates of air–sea CO₂ flux depend on knowing both the seawater partial pressure of CO₂ and the atmospheric CO₂ concentration directly above the ocean surface. While surface ocean CO₂ measurements have expanded over the past two decades, atmospheric observations over the global ocean—especially the Pacific—remain extremely sparse. Because of this, many flux calculations rely on atmospheric products that are zonally averaged or model-based rather than derived from direct, regionally representative measurements.
+Accurate estimates of air–sea CO₂ flux depend on knowing both the seawater partial pressure of CO₂ and the atmospheric CO₂ concentration directly above the ocean surface. While surface ocean CO₂ measurements have expanded over the past two decades, atmospheric observations over the global ocean—especially the Pacific—remain extremely sparse. Because of this, many flux calculations rely on atmospheric products that are zonally averaged or model-based rather than derived from direct, regionally representative measurements. (1)
 
-Flux studies often use the NOAA GML Marine Boundary Layer (MBL) product, which provides a smooth, zonally homogeneous reference surface for atmospheric CO₂. These fields are stable and well-vetted, but they inevitably smooth out regional variability and may not reflect real atmospheric conditions in dynamic environments like the equatorial Pacific—a region shaped by strong upwelling, large-scale circulation, and interannual anomalies. Without direct observations, it’s difficult to know whether these zonally averaged products capture the gradients that meaningfully influence flux estimates.
+Flux studies often use the NOAA GML Marine Boundary Layer (MBL) product, which provides a smooth, zonally homogeneous reference surface for atmospheric CO₂. These fields are stable and well-vetted, but they inevitably smooth out regional variability and may not reflect real atmospheric conditions in dynamic environments like the equatorial Pacific—a region shaped by strong upwelling, large-scale circulation, and interannual anomalies. Without direct observations, it’s difficult to know whether these zonally averaged products capture the gradients that meaningfully influence flux estimates. (4)
 
-Because the equatorial Pacific plays an outsized role in the global carbon cycle—and because atmospheric observations across this basin are so limited—it is essential to understand how different atmospheric datasets shape flux estimates. This project compares three atmospheric CO₂ sources for the equatorial Pacific in 2024: the NOAA GML MBL product, CarbonTracker 2024 model output, and in-situ atmospheric measurements from a 2025 ship track adjusted to a 2024 reference. In this context, a high-quality, high-resolution atmospheric measurement system installed alongside an existing pCO₂ system can provide crucial boundary-layer information in regions where observations are sparse, helping resolve subtle gradients that significantly affect calculated flux. By examining these differences, the goal is to assess whether commonly used atmospheric CO₂ products provide sufficiently accurate boundary conditions for flux estimates in one of the most variable—and under-observed—regions of the global ocean.
+Because the equatorial Pacific plays an outsized role in the global carbon cycle—and because atmospheric observations across this basin are so limited—it is essential to understand how different atmospheric datasets shape flux estimates. This project compares three atmospheric CO₂ sources for the equatorial Pacific in 2024: the NOAA GML MBL product, CarbonTracker 2024 model output, and in-situ atmospheric measurements from a 2025 ship track adjusted to a 2024 reference. In this context, a high-quality, high-resolution atmospheric measurement system installed alongside an existing pCO₂ system can provide crucial boundary-layer information in regions where observations are sparse, helping resolve subtle gradients that significantly affect calculated flux. (3) By examining these differences, the goal is to assess whether commonly used atmospheric CO₂ products provide sufficiently accurate boundary conditions for flux estimates in one of the most variable—and under-observed—regions of the global ocean.
 
 ---
 <p align="center">
@@ -110,7 +110,7 @@ Specifically:
 
 ### **Preliminary Data**
 
-- In early 2025, I measured high-frequency atmospheric CO₂ with a Picarro analyzer onboard the ro-ro ship **M/V *Tysla*** during its transit across the equatorial Pacific.
+- In early 2025, I measured high-frequency atmospheric CO₂ with a Picarro analyzer onboard the ro-ro ship **M/V *Tysla*** during its transit across the equatorial Pacific. (see picarro reliability for atmopsheric measurements at refernce 5)
 
 - To compare these 2025 observations with **2024 atmospheric CO₂ products** (NOAA MBL and CarbonTracker PBL CO₂), I estimated what the shipboard CO₂ values *would have been* in 2024.
 
@@ -237,4 +237,17 @@ The comparison indicates that **neither dataset is uniformly superior**:
 For air–sea CO₂ flux calculations, **having only seawater pCO₂ is not enough**.  
 A high-resolution atmospheric CO₂ measurement system—such as the Picarro analyzer used on the ship—can capture subtle gradients and variability that neither MBL nor CarbonTracker fully resolves. These differences can meaningfully alter ΔpCO₂ and therefore the resulting flux estimates.
 
+## References
+
+## References
+
+1. Takahashi, T., Sutherland, S. C., Wanninkhof, R., et al. (2009). *Climatological mean and decadal changes in surface ocean pCO₂, and net sea–air CO₂ flux over the global oceans.* Deep-Sea Research II, 56, 554–577. https://doi.org/10.1016/j.dsr2.2008.12.009
+
+2. Masarie, K. A., Peters, W., Jacobson, A. R., & Tans, P. P. (2014). *Seasonally adjusted atmospheric CO₂ at marine boundary layer sites, 1979–2013.* NOAA Earth System Research Laboratory. https://gml.noaa.gov/
+
+3. Landschützer, P., Lauvset, S. K., Becker, M., & the SOCONET Team. (2024). *Surface Ocean CO₂ Reference Observing Network (SOCONET): expanding and improving air–sea CO₂ flux estimates.* Earth System Science Data, 16, 2123–2160. https://doi.org/10.5194/essd-16-2123-2024
+
+4. Fay, A. R., & McKinley, G. A. (2018). *Global ocean biogeochemistry: A data-based synthesis.* Global Biogeochemical Cycles, 32(3), 463–485. https://doi.org/10.1002/2017GB005839
+
+5. Rella, C. W., Chen, H., Andrews, A. E., et al. (2015). *High-precision greenhouse gas measurements from Picarro cavity ring-down spectrometers.* Atmospheric Measurement Techniques, 8, 411–425. https://doi.org/10.5194/amt-8-411-2015
 

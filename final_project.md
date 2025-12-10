@@ -172,7 +172,7 @@ I initially expected **CarbonTracker PBL CO₂** to match the shipboard atmosphe
 ---
 <p align="center">
   <img 
-    src="https://hellafolk.github.io/img/ship_co2.png"
+    src="https://hellafolk.github.io/img/ortho_ship_map.png"
     style="width: 90%; max-width: 500px; border-radius: 12px;"
   >
 </p>

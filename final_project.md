@@ -197,11 +197,30 @@ I initially expected **CarbonTracker PBL CO₂** to match the shipboard atmosphe
 - Despite capturing this large-scale structure, **CarbonTracker’s CO₂ values were consistently higher** than the shipboard observations along most of the track.  
 - This suggests that while CarbonTracker preserves realistic spatial variability, it may introduce a **systematic bias** that inflates ΔpCO₂ and affects air–sea flux estimates.
 
+---
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/residuals_map.png"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+---
+
+
 ### **2. The NOAA MBL product was smoother but closer in mean value**
 
 - The MBL product is intentionally smooth and does not resolve the regional features seen in CarbonTracker or the ship data.  
 - Even so, the **overall mean value of MBL CO₂ aligned more closely with the shipboard measurements**.  
 - This implies that MBL may be **bias-reduced on average**, but less representative of real atmospheric variability in the equatorial Pacific.
+
+---
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/three_comparisions.png"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+---
 
 ### **3. Trade-offs between the two atmospheric datasets**
 

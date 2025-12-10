@@ -122,14 +122,13 @@ Specifically:
 ---
 <p align="center">
   <img 
-    src="ttps://hellafolk.github.io/img/tysla_stack.jpg"
+    src="https://hellafolk.github.io/img/tysla_stack.jpg"
     style="width: 90%; max-width: 500px; border-radius: 12px;"
   >
 </p>
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
-    <em>Taken during fieldwork on the Twin Glacier, 1948. Photo by William O’Field. Source: 
-    <a href="https://www.juneauicefield.org/history" target="_blank">Juneau Icefield Research Program</a>.</em>
+    <em>Photo taken during installation of Atmopsheric System, Carribean Sea, Anna McAuliffe</em>
   </p>
 </div>
 ---
@@ -152,6 +151,18 @@ Specifically:
   **ship CO₂**, **MBL CO₂**, and **CarbonTracker PBL CO₂**,  
   enabling residual analysis and evaluation of model performance along the track.
 
+---
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/tysla_side.jpg"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
+    <em>Photo of M/V Tysla viia VesselFinder</em>
+  </p>
+</div>
 ---
 
 ## **Preliminary Results**

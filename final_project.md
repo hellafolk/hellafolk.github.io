@@ -33,40 +33,39 @@ Because the flux depends directly on atmospheric CO₂, even small biases in pCO
 This sensitivity makes the choice of atmospheric CO₂ dataset critical. In the equatorial Pacific—where upwelling, circulation, and climate variability create strong gradients—using zonally averaged products may obscure important structure in pCO₂₍a₎ and lead to inaccurate flux estimates.
 
 ---
+
 <div style="
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 ">
-  <iframe
+  <img
     src="https://hellafolk.github.io/img/co2_2008_junjuly_turbo_24-9fps_final_norm375390.gif"
+    alt="Animated CO₂ field, June–July 2008"
     style="
-      border: none;
+      max-width: 600px;
+      width: 100%;
+      height: auto;
       border-radius: 12px;
-      transform: scale(0.6);
-      transform-origin: top left;
-      width: 1300px;
-      height: 820px;
     "
-    loading="lazy"
-    scrolling="no"
-  ></iframe>
+  />
 </div>
+
 ---
-**Research question:**  
-How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?
+
+**How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?**
 
 Specifically:
 
 1. How do 2024 atmospheric CO₂ values differ between  
    - the NOAA GML Marine Boundary Layer (MBL) product,  
-   - CarbonTracker 2024 (CT2024) 
+   - CarbonTracker 2024 (CT2024)?  
 
 2. How well do these products represent the atmospheric conditions encountered along a 2025 ship track, after adjusting those measurements back to 2024 levels using the Mauna Loa CO₂ growth rate?
 
 3. To what extent do the resulting differences in \( pCO_{2a} \) change calculated air–sea CO₂ flux, and are those differences large enough to matter for regional or global carbon budgets?
+
 ---
 
 ### **Preliminary Data**

@@ -61,146 +61,21 @@ Specifically:
 
 - I also shifted the 2025 day-of-year by **–1** to align with the 2024 seasonal cycle (since 2024 was a leap year).
 
+### **MBL and CarbonTracker**
 
+- I organized the shipboard measurements into a GeoDataFrame containing  
+  time, latitude, longitude, and high-frequency atmospheric CO₂ from the Picarro analyzer.
 
+- This spatial–temporal structure allowed each CO₂ measurement to be treated as a  
+  georeferenced point along the ship track.
 
+- Using the ship’s time and location, I interpolated:  
+  1. NOAA’s Marine Boundary Layer (MBL) CO₂ product, and  
+  2. CarbonTracker’s Planetary Boundary Layer CO₂ (PBL CO₂)
 
+  to the exact times and positions of the ship.
 
-
-
-
-
-## 3. Atmospheric CO₂ Data Sources
-
-### 3.1 NOAA GML MBL Product
-- A zonally averaged, smoothed reference surface CO₂ product.
-- Derived from a global network of marine flask and in-situ sites.
-- Traditonally used for large-scale climatological work.
-
-### 3.2 CarbonTracker 2024 (CT2024)
-- A 3D global atmospheric inversion model that simulates CO₂ concentration fields.
-- Provides 3-hourly xCO₂ at relatively high spatial resolution.
-
-### 3.3 TAO/TRITON Mooring Atmospheric CO₂
-- Direct, in-situ atmospheric CO₂ measurements from equatorial moorings.
-- Typically collected using non-dispersive infrared (NDIR) or related low-frequency sensors.
-- Measurement resolution is lower than shipboard Picarro systems.
-- Provides long-term, stable boundary-layer measurements.
-
-
-### 3.4 Shipboard Atmospheric CO₂ (Picarro; 2025 → adjusted to 2024)
-- Atmospheric xCO₂ measured using a high-precision Picarro cavity ring-down spectrometer (CRDS) G2301.
-- Picarro provides:
-  - High sampling frequency 
-  - High precision
-  - Continuous measurements along a ship track.
-
-To compare the 2025 shipboard measurements with 2024 products (MBL and CT2024), the values are adjusted using the Mauna Loa annual CO₂ growth rate:
-
-$$
-xCO_2^{2024\,(est)} = xCO_2^{2025\,(meas)} - \Delta CO_2^{ML}
-$$
-
-This provides a first-order 2024-equivalent ship dataset suitable for comparison with CT2024, MBL, and mooring observations.
-
----
-
-## 4. Methods Overview
-
-### 4.1 Region of Interest
-The analysis focuses on the **equatorial Pacific**, approximately:
-- **Latitudes:** \(10^\circ S\) to \(10^\circ N\)
-- **Longitudes:** \(160^\circ E\) to \(120^\circ W\)
-
-Chosen because:
-- Persistent upwelling and degassing  
-- Strong atmospheric and oceanic CO₂ gradients  
-- Sparse atmospheric measurement availability  
-
-### 4.2 Extracting Atmospheric CO₂
-
-#### CarbonTracker 2024
-- Use ERDDAP/NetCDF files.
-- Extract surface (or lowest-model-layer) xCO₂.
-- Compute weekly or monthly means.
-
-#### NOAA MBL CO₂
-- Interpolate MBL zonal values to the region of interest.
-- Extract 2024 values only.
-
-#### Moorings
-- Clean for flags and humidity corrections.
-- Compute daily or weekly averages.
-
-#### Shipboard CO₂
-- Clean, QC, and interpolate to ship track coordinates.
-- Subtract Mauna Loa annual growth rate to approximate 2024 values.
-
----
-
-## 5. Analysis Plan
-
-### 5.1 Time Series Comparison
-Compare:
-- CT2024  
-- MBL  
-- Moorings  
-- Adjusted ship track  
-
-Look for:
-- Offsets  
-- Anomalies  
-- Synoptic variability  
-- Interannual differences between 2024 and the 2025-measured track
-
-### 5.2 Spatial Structure
-- Map CT2024 fields over the equatorial Pacific.
-- Overlay ship track CO₂.
-- Compare to smooth MBL zonal means.
-- Quantify how much MBL misses east–west gradients.
-
-### 5.3 Flux Sensitivity Analysis
-
-Air–sea CO₂ flux (bulk formula):
-
-\[
-F = k \cdot s \cdot \left( pCO_{2}^{ocean} - pCO_{2}^{air} \right)
-\]
-
-Where:
-- **k** = gas transfer velocity  
-- **s** = solubility  
-- **pCO₂_air** = depends directly on atmospheric dataset used  
-
-Small differences in air CO₂ (\(1–2\) ppm) can lead to significant changes in the flux, especially in dynamic regions like the equatorial Pacific.
-
----
-
-## 6. Expected Outcomes
-
-I expect that:
-
-- **MBL will smooth out important gradients** in CO₂.  
-- **CT2024 will reflect finer-scale structure** and better match moorings/ship data.  
-- **Shipboard CO₂**, even after converting to 2024, will show synoptic variability that MBL cannot capture.  
-- The resulting flux differences may be **non-negligible**, especially in upwelling zones.
-
-This should highlight the importance of using higher-resolution atmospheric fields for regional flux studies.
-
----
-
-## 7. Broader Context
-
-A persistent challenge in air–sea CO₂ work is that:
-> *We have excellent ocean carbon measurements, but relatively sparse atmospheric CO₂ observations over the open ocean.*
-
-If CT2024 or in-situ CO₂ significantly outperform MBL in representing the equatorial Pacific atmosphere, it supports:
-
-- Increasing atmospheric measurement density over the ocean  
-- Incorporating model-based atmospheric fields into flux programs  
-- Revisiting the use of zonally averaged products for regional carbon budgets  
-
-This comparison helps determine which atmospheric datasets provide the most realistic boundary conditions for estimating air–sea fluxes in one of the most important CO₂ outgassing regions on Earth.
-
----
+- This produced a direct, point-by-point comparison between  
+  **ship CO₂**, **MBL CO₂**, and **CarbonTracker PBL CO₂**,  
+  enabling residual analysis and evaluation of model performance along the track.
 

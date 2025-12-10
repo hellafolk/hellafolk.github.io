@@ -33,6 +33,7 @@ $$
 F_{\mathrm{CO_2}} = k \cdot s \cdot (pCO_{2w} - pCO_{2a}) = k \cdot s \cdot \Delta pCO_2
 $$
 
+
 where:
 
 - **F<sub>CO₂</sub>** is the air–sea CO₂ flux,  

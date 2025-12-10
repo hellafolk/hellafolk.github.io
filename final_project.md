@@ -29,9 +29,9 @@ Because the equatorial Pacific plays an outsized role in the global carbon cycle
 
 Estimating air–sea CO₂ flux requires knowing the difference between seawater (pCO₂₍w₎) and atmospheric (pCO₂₍a₎) CO₂. This gradient is often written as:
 
-<script type="math/tex; mode=display">
+$$
 F_{CO_2} = k \, s \, (pCO_{2w} - pCO_{2a}) = k \, s \, \Delta pCO_2
-</script>
+$$
 
 where:
 

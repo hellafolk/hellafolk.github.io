@@ -32,41 +32,31 @@ Because the flux depends directly on atmospheric CO₂, even small biases in pCO
 
 This sensitivity makes the choice of atmospheric CO₂ dataset critical. In the equatorial Pacific—where upwelling, circulation, and climate variability create strong gradients—using zonally averaged products may obscure important structure in pCO₂₍a₎ and lead to inaccurate flux estimates.
 
-**Research question:**  
-
-
+---
 <div style="
   width: 100%;
-  overflow-x: visible;
-  overflow-y: visible;
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
+  align-items: center;
+  margin: 1rem 0;
 ">
-  <div style="
-    position: relative;
-    width: 100%;
-    max-width: 800px;        /* match theme body width */
-    height: 500px;           /* MUST be big enough to show the scaled iframe */
-  ">
-    <iframe
-      src="https://hellafolk.github.io/img/co2_2008_junjuly_turbo_24-9fps_final_norm375390.gif"
-      style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform-origin: top left;
-        transform: scale(0.6);   /* <--- shrink it */
-        width: 1300px;           /* pretend size of real map content */
-        height: 820px;           /* pretend size of real map content */
-        border: none;
-        border-radius: 12px;
-      "
-      loading="lazy"
-      scrolling="no"
-    ></iframe>
-  
+  <iframe
+    src="https://hellafolk.github.io/img/co2_2008_junjuly_turbo_24-9fps_final_norm375390.gif"
+    style="
+      border: none;
+      border-radius: 12px;
+      transform: scale(0.6);
+      transform-origin: top left;
+      width: 1300px;
+      height: 820px;
+    "
+    loading="lazy"
+    scrolling="no"
+  ></iframe>
+</div>
+---
 
+**Research question:**  
 How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?
 
 Specifically:

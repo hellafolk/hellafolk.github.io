@@ -160,7 +160,7 @@ Specifically:
 </p>
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
-    <em>Photo of M/V Tysla viia VesselFinder</em>
+    <em>Photo of M/V Tysla via VesselFinder</em>
   </p>
 </div>
 ---
@@ -168,6 +168,28 @@ Specifically:
 ## **Preliminary Results**
 
 I initially expected **CarbonTracker PBL CO₂** to match the shipboard atmospheric measurements most closely, since it resolves more spatial structure than the NOAA MBL product. However, the comparison showed a more nuanced result.
+
+---
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/ship_co2.png"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/ct_final.png"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/mbl_final.png"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+
+---
 
 ### **1. CarbonTracker captured gradients but showed a positive bias**
 

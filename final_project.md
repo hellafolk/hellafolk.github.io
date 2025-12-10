@@ -115,6 +115,21 @@ Specifically:
 
 - I also shifted the 2025 day-of-year by **–1** to align with the 2024 seasonal cycle (since 2024 was a leap year).
 
+---
+<p align="center">
+  <img 
+    src="ttps://hellafolk.github.io/img/tysla_stack.jpg"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
+    <em>Taken during fieldwork on the Twin Glacier, 1948. Photo by William O’Field. Source: 
+    <a href="https://www.juneauicefield.org/history" target="_blank">Juneau Icefield Research Program</a>.</em>
+  </p>
+</div>
+---
+
 ### **MBL and CarbonTracker**
 
 - I organized the shipboard measurements into a GeoDataFrame containing  

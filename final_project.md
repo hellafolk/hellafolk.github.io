@@ -12,6 +12,19 @@ Flux studies often use the NOAA GML Marine Boundary Layer (MBL) product, which p
 Because the equatorial Pacific plays an outsized role in the global carbon cycle—and because atmospheric observations across this basin are so limited—it is essential to understand how different atmospheric datasets shape flux estimates. This project compares three atmospheric CO₂ sources for the equatorial Pacific in 2024: the NOAA GML MBL product, CarbonTracker 2024 model output, and in-situ atmospheric measurements from a 2025 ship track adjusted to a 2024 reference. In this context, a high-quality, high-resolution atmospheric measurement system installed alongside an existing pCO₂ system can provide crucial boundary-layer information in regions where observations are sparse, helping resolve subtle gradients that significantly affect calculated flux. By examining these differences, the goal is to assess whether commonly used atmospheric CO₂ products provide sufficiently accurate boundary conditions for flux estimates in one of the most variable—and under-observed—regions of the global ocean.
 
 ---
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/ship_track.png"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
+    <em>Taken during fieldwork on the Twin Glacier, 1948. Photo by William O’Field. Source: 
+    <a href="https://www.juneauicefield.org/history" target="_blank">Juneau Icefield Research Program</a>.</em>
+  </p>
+</div>
+---
 
 ## 2. Core Research Question
 

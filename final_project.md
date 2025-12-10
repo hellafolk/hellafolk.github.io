@@ -65,9 +65,7 @@ This sensitivity makes the choice of atmospheric CO₂ dataset critical. In the 
       loading="lazy"
       scrolling="no"
     ></iframe>
-  </div>
-</div>
-
+  
 
 How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?
 

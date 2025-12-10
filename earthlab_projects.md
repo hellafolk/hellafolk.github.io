@@ -26,3 +26,9 @@ The greatest aviators.
 
 A look at vegetation in southeast Alaska
 
+---
+
+### [Observations vs. Models](final_project.md)
+
+Comparing MBL, CT PBL, and Ship Obs
+

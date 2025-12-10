@@ -5,13 +5,11 @@ layout: default
 
 ## 1. Project Motivation
 
-Accurate estimates of air–sea CO₂ flux depend on knowing both the seawater partial pressure of CO₂ and the atmospheric CO₂ concentration just above the ocean surface. While surface ocean measurements have expanded significantly over the past two decades, atmospheric observations over the global ocean—especially across the Pacific—remain extremely sparse. As a result, many air–sea flux studies rely on atmospheric CO₂ products that are either zonally averaged or model-based, rather than built from direct, regionally representative measurements.
+Accurate estimates of air–sea CO₂ flux depend on knowing both the seawater partial pressure of CO₂ and the atmospheric CO₂ concentration directly above the ocean surface. While surface ocean CO₂ measurements have expanded over the past two decades, atmospheric observations over the global ocean—especially the Pacific—remain extremely sparse. Because of this, many flux calculations rely on atmospheric products that are zonally averaged or model-based rather than derived from direct, regionally representative measurements.
 
-Traditionally, the atmospheric CO₂ concentration used in flux calculations is taken from products like the NOAA GML Marine Boundary Layer (MBL) reference surface, which provides a smooth, zonally homogeneous estimate of atmospheric CO₂. These products are stable and well-vetted, but they inevitably smooth out regional variability and may not reflect real atmospheric conditions in dynamic regions such as the equatorial Pacific. This region is strongly influenced by upwelling, large-scale circulation, and interannual climate variability. Without direct measurements, it is difficult to know whether zonally averaged atmospheric products adequately capture the gradients and anomalies that can significantly influence flux estimates.
+Flux studies often use the NOAA GML Marine Boundary Layer (MBL) product, which provides a smooth, zonally homogeneous reference surface for atmospheric CO₂. These fields are stable and well-vetted, but they inevitably smooth out regional variability and may not reflect real atmospheric conditions in dynamic environments like the equatorial Pacific—a region shaped by strong upwelling, large-scale circulation, and interannual anomalies. Without direct observations, it’s difficult to know whether these zonally averaged products capture the gradients that meaningfully influence flux estimates.
 
-Ship-based CO₂ systems offer an alternative source of atmospheric information, though they are traditionally optimized for measuring seawater CO₂. These instruments periodically switch to atmospheric sampling for short intervals, yielding limited but valuable snapshots of atmospheric CO₂ along ship tracks. Recent developments—particularly within the Surface Ocean CO₂ Reference Observing Network (SOCONET)—have improved the precision and consistency of shipboard atmospheric measurements through standardized drying procedures, humidity corrections, linearity checks, and the use of stable calibration gases. These high-quality measurements have revealed that discrepancies between different atmospheric CO₂ products can meaningfully alter flux estimates at regional scales.
-
-Given the importance of the equatorial Pacific to the global carbon cycle, and the scarcity of direct atmospheric observations across this basin, it is critical to understand how different atmospheric CO₂ datasets influence calculated fluxes. This project focuses on comparing several atmospheric CO₂ sources for the equatorial Pacific in 2024: the NOAA GML MBL product, CarbonTracker 2024 model output, and in-situ atmospheric measurements from moorings and a 2025 ship track adjusted to a 2024 reference. By examining these differences, this project aims to assess whether commonly used atmospheric CO₂ products provide sufficiently accurate boundary conditions for estimating air–sea CO₂ flux in a region where variability is high and observations are limited.
+Because the equatorial Pacific plays an outsized role in the global carbon cycle—and because atmospheric observations across this basin are so limited—it is essential to understand how different atmospheric datasets shape flux estimates. This project compares three atmospheric CO₂ sources for the equatorial Pacific in 2024: the NOAA GML MBL product, CarbonTracker 2024 model output, and in-situ atmospheric measurements from a 2025 ship track adjusted to a 2024 reference. In this context, a high-quality, high-resolution atmospheric measurement system installed alongside an existing pCO₂ system can provide crucial boundary-layer information in regions where observations are sparse, helping resolve subtle gradients that significantly affect calculated flux. By examining these differences, the goal is to assess whether commonly used atmospheric CO₂ products provide sufficiently accurate boundary conditions for flux estimates in one of the most variable—and under-observed—regions of the global ocean.
 
 ---
 
@@ -42,15 +40,32 @@ Specifically:
 
 1. How do 2024 atmospheric CO₂ values differ between  
    - the NOAA GML Marine Boundary Layer (MBL) product,  
-   - CarbonTracker 2024 (CT2024), and  
-   - direct atmospheric measurements from equatorial Pacific moorings?
+   - CarbonTracker 2024 (CT2024) 
 
 2. How well do these products represent the atmospheric conditions encountered along a 2025 ship track, after adjusting those measurements back to 2024 levels using the Mauna Loa CO₂ growth rate?
 
 3. To what extent do the resulting differences in \( pCO_{2a} \) change calculated air–sea CO₂ flux, and are those differences large enough to matter for regional or global carbon budgets?
 
-
 ---
+### **Preliminary Data**
+
+- In early 2025, I measured high-frequency atmospheric CO₂ with a Picarro analyzer onboard the ro-ro ship **M/V *Tysla*** during its transit across the equatorial Pacific.
+
+- To compare these 2025 observations with **2024 atmospheric CO₂ products** (NOAA MBL and CarbonTracker PBL CO₂), I estimated what the shipboard CO₂ values *would have been* in 2024.
+
+- I used the **Mauna Loa 2024 annual growth rate**:  
+  \[
+  \Delta CO_{2,\text{MLO},2024} = 3.33 \pm 0.11 \text{ ppm}
+  \]
+
+- For each ship measurement, I created a *“2024-equivalent”* atmospheric CO₂ value by subtracting this growth rate:  
+  \[
+  CO_{2,\text{ship,2024 equiv}} = CO_{2,\text{ship,2025}} - 3.33 \text{ ppm}
+  \]
+
+- I also shifted the 2025 day-of-year by **–1** to align with the 2024 seasonal cycle (since 2024 was a leap year).
+
+
 
 ## 3. Atmospheric CO₂ Data Sources
 

@@ -253,4 +253,5 @@ A high-resolution atmospheric CO₂ measurement system—such as the Picarro ana
 
 7. NOAA Global Monitoring Laboratory. (2024). *Marine Boundary Layer (MBL) Reference CO₂ Product.* NOAA Earth System Research Laboratory. https://gml.noaa.gov/ccgg/mbl/
 
-
+## Final project notebook
+[here](https://github.com/hellafolk/final_project/tree/main/notebook)

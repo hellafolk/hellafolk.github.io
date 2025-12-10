@@ -55,7 +55,6 @@ This sensitivity makes the choice of atmospheric CO₂ dataset critical. In the 
   ></iframe>
 </div>
 ---
-
 **Research question:**  
 How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?
 
@@ -68,8 +67,8 @@ Specifically:
 2. How well do these products represent the atmospheric conditions encountered along a 2025 ship track, after adjusting those measurements back to 2024 levels using the Mauna Loa CO₂ growth rate?
 
 3. To what extent do the resulting differences in \( pCO_{2a} \) change calculated air–sea CO₂ flux, and are those differences large enough to matter for regional or global carbon budgets?
-
 ---
+
 ### **Preliminary Data**
 
 - In early 2025, I measured high-frequency atmospheric CO₂ with a Picarro analyzer onboard the ro-ro ship **M/V *Tysla*** during its transit across the equatorial Pacific.

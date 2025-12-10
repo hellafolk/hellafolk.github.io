@@ -34,6 +34,41 @@ This sensitivity makes the choice of atmospheric CO₂ dataset critical. In the 
 
 **Research question:**  
 
+
+<div style="
+  width: 100%;
+  overflow-x: visible;
+  overflow-y: visible;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+">
+  <div style="
+    position: relative;
+    width: 100%;
+    max-width: 800px;        /* match theme body width */
+    height: 500px;           /* MUST be big enough to show the scaled iframe */
+  ">
+    <iframe
+      src="https://hellafolk.github.io/img/co2_2008_junjuly_turbo_24-9fps_final_norm375390.gif"
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: scale(0.6);   /* <--- shrink it */
+        width: 1300px;           /* pretend size of real map content */
+        height: 820px;           /* pretend size of real map content */
+        border: none;
+        border-radius: 12px;
+      "
+      loading="lazy"
+      scrolling="no"
+    ></iframe>
+  </div>
+</div>
+
+
 How do different atmospheric CO₂ datasets influence calculated air–sea CO₂ flux in the equatorial Pacific?
 
 Specifically:

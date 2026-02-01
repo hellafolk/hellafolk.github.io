@@ -1,1 +1,107 @@
+---
+layout: default
+---
+#### To Tie Sleep to Green Space
+
+As the world changes faster than we ever expected, our desire to measure and understand it remains constant. To return to the same ridge, the same snow pit, the same stretch of ice and ask, How has it changed? In 2026, the Juneau Icefield Research Program will turn 80 years old, making it one of the longest-running glacier monitoring programs in the world. Glaciers such as Lemon Creek and Taku have been observed for decades, their ice cores and shifting edges quietly tell us the story of our planet.
+
+---
+
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/agsny_61720_full+copy+3.webp"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
+    <em>Taken during fieldwork on the Twin Glacier, 1948. Photo by William O’Field. Source: 
+    <a href="https://www.juneauicefield.org/history" target="_blank">Juneau Icefield Research Program</a>.</em>
+  </p>
+</div>
+---
+
+The Juneau Icefield Research Program (JIRP) is built around long-term, boots-on-the-ground field work... mass balance measurements, snow pits, firn stratigraphy, and stable-isotope sampling all of which help us understand how the icefield is changing over time. It’s one of the few places where decades of field observations line up directly with the landscapes every day.
+
+For my project, I wanted to look at the landscape around that ice. I started with MODIS NDVI data for summers from 2000–2023 (June–September) to see whether vegetation has been increasing as the glaciers thin and retreat. I was especially interested in the Juneau area—places like the Taku, Llewellyn, and Mendenhall, but the more I looked, the more it made sense to widen the region. So I expanded the analysis to include most of Southeast Alaska and parts of coastal British Columbia to get a clearer picture of how widespread these patterns might be.
+
+<div style="
+  width: 100%;
+  overflow-x: visible;
+  overflow-y: visible;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+">
+  <div style="
+    position: relative;
+    width: 100%;
+    max-width: 800px;        /* match theme body width */
+    height: 500px;           /* MUST be big enough to show the scaled iframe */
+  ">
+    <iframe
+      src="https://hellafolk.github.io/img/ndvi_2023_over_alaska.html"
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: scale(0.6);   /* <--- shrink it */
+        width: 1300px;           /* pretend size of real map content */
+        height: 820px;           /* pretend size of real map content */
+        border: none;
+        border-radius: 12px;
+      "
+      loading="lazy"
+      scrolling="no"
+    ></iframe>
+  </div>
+</div>
+A big part of this work is seeing how satellite data can complement JIRP’s in-situ measurements. Field observations give us the details (snow layers, density, melt patterns) while the spatial satellite record helps show the broader ecological response happening at the margins of the ice. Looking at both together feels like the most complete way to understand how the icefield and the surrounding landscape are shifting with time.
+
+I first tried to visualize the NDVI changes by creating a GIF of the summers from 2000–2023. It helped show the general shifts year to year, but the subtle trends were hard to see when everything was moving. To get a clearer picture, I plotted the NDVI values through time and calculated the root-mean-square for each season. That made it easier to see the overall direction of vegetation change around the icefields and how the signal has evolved as more land becomes exposed.
+
+<p align="center" style="margin: 2rem 0;">
+  <img 
+    src="https://hellafolk.github.io/img/juneau_ndvi_summer_timelapse_new.gif" 
+    alt="Illustration of birds perceiving Earth's magnetic fields"
+    style="width: 90%; max-width: 600px; border-radius: 12px;"
+  >
+</p>
+
+In the future, I’d love to scale this kind of analysis beyond Southeast Alaska. Part of me wants to look at the entire Arctic and see how vegetation, permafrost change, and ice retreat show up in long-term NDVI records. I’m also interested in comparing these landscape shifts with atmospheric signals, like the rise in methane concentrations, as the Arctic continues to warm and melt. There’s a lot of potential in pairing satellite data with atmospheric measurements, and I’d like to keep exploring where those connections lead.
+<div style="
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+">
+  <div style="
+    position: relative;
+    width: 100%;
+    max-width: 850px;     /* a little wider than before */
+    padding-top: 45%;     /* controls the aspect ratio, removes big white space */
+  ">
+    <iframe
+      src="https://hellafolk.github.io/img/ndvi_trend_2000_2023_embedded.html"
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1400px;       /* pretend width of real content */
+        height: 900px;       /* pretend height of real content */
+        transform: scale(0.75);         /* increase display size */
+        transform-origin: top left;
+        border: none;
+        border-radius: 12px;
+      "
+      loading="lazy"
+      scrolling="no"
+    ></iframe>
+  </div>
+</div>
+
+<small>
+Data credit to: MODIS/Terra Vegetation Indices (MOD13Q1 v6.1), NASA LP DAAC (Didan, 2021). <a href="https://doi.org/10.5067/MODIS/MOD13Q1.061" target="_blank">https://doi.org/10.5067/MODIS/MOD13Q1.061</a>
+</small>
 

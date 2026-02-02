@@ -10,37 +10,17 @@ Colorado is known for many things... sunshine, access to nature, and a generally
 In this assignment, I explore whether urban greenspace might play a role in this pattern. Specifically, I examine whether neighborhoods with more vegetation are associated with lower rates of short sleep (defined as under seven hours per night), focusing on Denver as a case study.
 
 ---
-<div style="
-  width: 100%;
-  overflow-x: visible;
-  overflow-y: visible;
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-">
-  <div style="
-    position: relative;
-    width: 100%;
-    max-width: 800px;        /* match theme body width */
-    height: 500px;           /* MUST be big enough to show the scaled iframe */
-  ">
-    <iframe
-      src="https://hellafolk.github.io/img/Denver_Downtown_Aerial,_December_2025.jpg"
-      style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform-origin: top left;
-        transform: scale(0.6);   /* <--- shrink it */
-        width: 1300px;           /* pretend size of real map content */
-        height: 820px;           /* pretend size of real map content */
-        border: none;
-        border-radius: 12px;
-      "
-      loading="lazy"
-      scrolling="no"
-    ></iframe>
-  </div>
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/Denver_Downtown_Aerial,_December_2025.jpg"
+    style="width: 90%; max-width: 500px; border-radius: 12px;"
+  >
+</p>
+<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
+    <em>Downtown Denver Source: 
+    <a By Spicypepper999 - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=180627168</a>.</em>
+  </p>
 </div>
 ---
 

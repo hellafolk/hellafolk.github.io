@@ -34,7 +34,7 @@ Comparing MBL, CT PBL, and Ship Obs
 
 ---
 
-### [Sleep and Urban Green Space](final_project.md)
+### [Sleep and Urban Green Space](sleep_to_ndvi.md)
 
 A Denver case study
 

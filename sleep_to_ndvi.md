@@ -49,7 +49,7 @@ To quantify green space, I used satellite-derived Normalized Difference Vegetati
         top: 0;
         left: 0;
         transform-origin: top left;
-        transform: scale(1);   /* <--- shrink it */
+        transform: scale(.8);   /* <--- shrink it */
         width: 1300px;           /* pretend size of real map content */
         height: 820px;           /* pretend size of real map content */
         border: none;
@@ -60,6 +60,8 @@ To quantify green space, I used satellite-derived Normalized Difference Vegetati
     ></iframe>
   </div>
 </div>
+
+
 
 Comparing the two maps side by side wasn’t enough for me to draw any real conclusions about sleep and green space. While there were some visible spatial patterns, it was hard to tell whether those patterns actually reflected a relationship in the data. To get a clearer picture, I plotted the variables against each other using pairwise comparisons.
 
@@ -88,7 +90,7 @@ Overall, while the vegetation metrics are strongly related to each other, their 
         top: 0;
         left: 0;
         transform-origin: top left;
-        transform: scale(1);   /* <--- shrink it */
+        transform: scale(.8);   /* <--- shrink it */
         width: 1300px;           /* pretend size of real map content */
         height: 820px;           /* pretend size of real map content */
         border: none;
@@ -100,11 +102,14 @@ Overall, while the vegetation metrics are strongly related to each other, their 
   </div>
 </div>
 
+
+
 I decided to give the relationship between sleep and green space one last shot by building a simple linear regression model to predict short sleep duration using vegetation edge density. I trained the model on 70% of the data and tested it on the remaining 30%. When I mapped the model error, it became clear that the model did not do a good job predicting sleep based on urban green space alone.
 
 In some areas, particularly near downtown, the model consistently underestimated how much short sleep people experience, while in other neighborhoods it predicted more sleep than was actually observed. Overall, the model tended to overestimate sleep duration across much of the city. This suggests that vegetation edge density on its own is a weak predictor of short sleep at the census-tract scale.
 
 Overall, this assignment was a good reminder not to chase outcomes. While it is tempting to expect green space to explain patterns in sleep, the results suggest that these variables are largely unrelated in Denver, at least when considered in isolation.
+
 
 <div style="
   width: 100%;
@@ -127,7 +132,7 @@ Overall, this assignment was a good reminder not to chase outcomes. While it is 
         top: 0;
         left: 0;
         transform-origin: top left;
-        transform: scale(1);   /* <--- shrink it */
+        transform: scale(.8);   /* <--- shrink it */
         width: 1300px;           /* pretend size of real map content */
         height: 820px;           /* pretend size of real map content */
         border: none;
@@ -138,6 +143,7 @@ Overall, this assignment was a good reminder not to chase outcomes. While it is 
     ></iframe>
   </div>
 </div>
+
 
 <small>
 Data credit to: MODIS/Terra Vegetation Indices (MOD13Q1 v6.1), NASA LP DAAC (Didan, 2021). <a href="https://doi.org/10.5067/MODIS/MOD13Q1.061" target="_blank">https://doi.org/10.5067/MODIS/MOD13Q1.061</a>

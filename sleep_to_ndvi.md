@@ -69,7 +69,7 @@ To quantify green space, I used satellite-derived Normalized Difference Vegetati
         top: 0;
         left: 0;
         transform-origin: top left;
-        transform: scale(0.6);   /* <--- shrink it */
+        transform: scale(1);   /* <--- shrink it */
         width: 1300px;           /* pretend size of real map content */
         height: 820px;           /* pretend size of real map content */
         border: none;
@@ -108,7 +108,7 @@ Overall, while the vegetation metrics are strongly related to each other, their 
         top: 0;
         left: 0;
         transform-origin: top left;
-        transform: scale(0.6);   /* <--- shrink it */
+        transform: scale(1);   /* <--- shrink it */
         width: 1300px;           /* pretend size of real map content */
         height: 820px;           /* pretend size of real map content */
         border: none;
@@ -147,7 +147,7 @@ Overall, this assignment was a good reminder not to chase outcomes. While it is 
         top: 0;
         left: 0;
         transform-origin: top left;
-        transform: scale(0.6);   /* <--- shrink it */
+        transform: scale(1);   /* <--- shrink it */
         width: 1300px;           /* pretend size of real map content */
         height: 820px;           /* pretend size of real map content */
         border: none;

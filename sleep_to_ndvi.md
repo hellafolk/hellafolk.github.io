@@ -10,19 +10,12 @@ Colorado is known for many things... sunshine, access to nature, and a generally
 In this assignment, I explore whether urban greenspace might play a role in this pattern. Specifically, I examine whether neighborhoods with more vegetation are associated with lower rates of short sleep (defined as under seven hours per night), focusing on Denver as a case study.
 
 ---
-
 <p align="center">
   <img 
-    src="https://hellafolk.github.io/img/agsny_61720_full+copy+3.webp"
+    src="https://hellafolk.github.io/img/sleep_vs_vegetation.html"
     style="width: 90%; max-width: 500px; border-radius: 12px;"
   >
 </p>
-<div style="text-align: center; max-width: 600px; margin: 0 auto;">
-  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
-    <em>Taken during fieldwork on the Twin Glacier, 1948. Photo by William O’Field. Source: 
-    <a href="https://www.juneauicefield.org/history" target="_blank">Juneau Icefield Research Program</a>.</em>
-  </p>
-</div>
 ---
 
 I first pulled census tract data and Colorado CDC sleep estimates and plotted short sleep duration alongside neighborhood green space across Denver. One of the most noticeable patterns is that neighborhoods closest to downtown show some of the highest rates of short sleep, with up to ~44% of the population reporting fewer than seven hours of sleep per night. These same areas also tend to have relatively low levels of green space. In contrast, neighborhoods on the northeast side of Denver show higher amounts of vegetation and, more generally, lower rates of short sleep.

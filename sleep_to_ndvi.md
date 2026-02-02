@@ -1,9 +1,13 @@
 ---
 layout: default
 ---
-#### To Tie Sleep to Green Space
+#### Goodnight Denver: Sleep and Green Space
 
-As the world changes faster than we ever expected, our desire to measure and understand it remains constant. To return to the same ridge, the same snow pit, the same stretch of ice and ask, How has it changed? In 2026, the Juneau Icefield Research Program will turn 80 years old, making it one of the longest-running glacier monitoring programs in the world. Glaciers such as Lemon Creek and Taku have been observed for decades, their ice cores and shifting edges quietly tell us the story of our planet.
+As a poor undergraduate, I found many creative ways to make money. One semester, when funds were especially tight, I signed up for a sleep study. I tracked my food, wore sensors, and spent long hours in dark laboratories, all to be told something I already suspected: I was not sleeping enough.
+
+Colorado is known for many things... sunshine, access to nature, and a generally outdoorsy lifestyle. And yet, more often than not, adults in Colorado report sleeping fewer than seven hours per night. Previous analyses have shown that short sleep duration is common across the state and is associated with increased mental distress, with notable differences across demographic groups (Colorado Health Institute, Let’s Sleep on It, Colorado).
+
+In this assignment, I explore whether urban greenspace might play a role in this pattern. Specifically, I examine whether neighborhoods with more vegetation are associated with lower rates of short sleep (defined as under seven hours per night), focusing on Denver as a case study.
 
 ---
 
@@ -21,9 +25,9 @@ As the world changes faster than we ever expected, our desire to measure and und
 </div>
 ---
 
-The Juneau Icefield Research Program (JIRP) is built around long-term, boots-on-the-ground field work... mass balance measurements, snow pits, firn stratigraphy, and stable-isotope sampling all of which help us understand how the icefield is changing over time. It’s one of the few places where decades of field observations line up directly with the landscapes every day.
+I first pulled census tract data and Colorado CDC sleep estimates and plotted short sleep duration alongside neighborhood green space across Denver. One of the most noticeable patterns is that neighborhoods closest to downtown show some of the highest rates of short sleep, with up to ~44% of the population reporting fewer than seven hours of sleep per night. These same areas also tend to have relatively low levels of green space. In contrast, neighborhoods on the northeast side of Denver show higher amounts of vegetation and, more generally, lower rates of short sleep.
 
-For my project, I wanted to look at the landscape around that ice. I started with MODIS NDVI data for summers from 2000–2023 (June–September) to see whether vegetation has been increasing as the glaciers thin and retreat. I was especially interested in the Juneau area—places like the Taku, Llewellyn, and Mendenhall, but the more I looked, the more it made sense to widen the region. So I expanded the analysis to include most of Southeast Alaska and parts of coastal British Columbia to get a clearer picture of how widespread these patterns might be.
+To quantify green space, I used satellite-derived Normalized Difference Vegetation Index (NDVI) data aggregated to the census tract level. NDVI provides a simple measure of vegetation presence by comparing reflected near-infrared and red light, with higher values indicating denser or healthier vegetation. I summarized NDVI within each tract to represent neighborhood-scale green space and examined this metric alongside CDC short sleep estimates to explore spatial patterns across the city.
 
 <div style="
   width: 100%;
@@ -57,9 +61,12 @@ For my project, I wanted to look at the landscape around that ice. I started wit
     ></iframe>
   </div>
 </div>
-A big part of this work is seeing how satellite data can complement JIRP’s in-situ measurements. Field observations give us the details (snow layers, density, melt patterns) while the spatial satellite record helps show the broader ecological response happening at the margins of the ice. Looking at both together feels like the most complete way to understand how the icefield and the surrounding landscape are shifting with time.
 
-I first tried to visualize the NDVI changes by creating a GIF of the summers from 2000–2023. It helped show the general shifts year to year, but the subtle trends were hard to see when everything was moving. To get a clearer picture, I plotted the NDVI values through time and calculated the root-mean-square for each season. That made it easier to see the overall direction of vegetation change around the icefields and how the signal has evolved as more land becomes exposed.
+Comparing the two maps side by side wasn’t enough for me to draw any real conclusions about sleep and green space. While there were some visible spatial patterns, it was hard to tell whether those patterns actually reflected a relationship in the data. To get a clearer picture, I plotted the variables against each other using pairwise comparisons.
+
+The figure shows scatter plots and distributions for short sleep duration and several vegetation metrics, including edge density, fractional vegetation cover, and patch size. Plotting the variables this way makes it easier to see whether any relationships exist beyond what can be inferred visually from maps alone. Some variables were log-transformed to reduce skew and make the data easier to interpret, especially where values span a wide range.
+
+Overall, while the vegetation metrics are strongly related to each other, their relationship with short sleep duration appears weak and scattered, suggesting that green space alone may not be a strong predictor of short sleep at the census-tract level in Denver. 
 
 <p align="center" style="margin: 2rem 0;">
   <img 
@@ -69,7 +76,12 @@ I first tried to visualize the NDVI changes by creating a GIF of the summers fro
   >
 </p>
 
-In the future, I’d love to scale this kind of analysis beyond Southeast Alaska. Part of me wants to look at the entire Arctic and see how vegetation, permafrost change, and ice retreat show up in long-term NDVI records. I’m also interested in comparing these landscape shifts with atmospheric signals, like the rise in methane concentrations, as the Arctic continues to warm and melt. There’s a lot of potential in pairing satellite data with atmospheric measurements, and I’d like to keep exploring where those connections lead.
+I decided to give the relationship between sleep and green space one last shot by building a simple linear regression model to predict short sleep duration using vegetation edge density. I trained the model on 70% of the data and tested it on the remaining 30%. When I mapped the model error, it became clear that the model did not do a good job predicting sleep based on urban green space alone.
+
+In some areas, particularly near downtown, the model consistently underestimated how much short sleep people experience, while in other neighborhoods it predicted more sleep than was actually observed. Overall, the model tended to overestimate sleep duration across much of the city. This suggests that vegetation edge density on its own is a weak predictor of short sleep at the census-tract scale.
+
+Overall, this assignment was a good reminder not to chase outcomes. While it is tempting to expect green space to explain patterns in sleep, the results suggest that these variables are largely unrelated in Denver, at least when considered in isolation.
+
 <div style="
   width: 100%;
   display: flex;

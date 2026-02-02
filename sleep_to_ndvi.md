@@ -10,12 +10,38 @@ Colorado is known for many things... sunshine, access to nature, and a generally
 In this assignment, I explore whether urban greenspace might play a role in this pattern. Specifically, I examine whether neighborhoods with more vegetation are associated with lower rates of short sleep (defined as under seven hours per night), focusing on Denver as a case study.
 
 ---
-<p align="center">
-  <img 
-    src="https://hellafolk.github.io/img/sleep_vs_vegetation.html"
-    style="width: 90%; max-width: 500px; border-radius: 12px;"
-  >
-</p>
+<div style="
+  width: 100%;
+  overflow-x: visible;
+  overflow-y: visible;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+">
+  <div style="
+    position: relative;
+    width: 100%;
+    max-width: 800px;        /* match theme body width */
+    height: 500px;           /* MUST be big enough to show the scaled iframe */
+  ">
+    <iframe
+      src="https://hellafolk.github.io/img/Denver_Downtown_Aerial,_December_2025.jpg"
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: scale(0.6);   /* <--- shrink it */
+        width: 1300px;           /* pretend size of real map content */
+        height: 820px;           /* pretend size of real map content */
+        border: none;
+        border-radius: 12px;
+      "
+      loading="lazy"
+      scrolling="no"
+    ></iframe>
+  </div>
+</div>
 ---
 
 I first pulled census tract data and Colorado CDC sleep estimates and plotted short sleep duration alongside neighborhood green space across Denver. One of the most noticeable patterns is that neighborhoods closest to downtown show some of the highest rates of short sleep, with up to ~44% of the population reporting fewer than seven hours of sleep per night. These same areas also tend to have relatively low levels of green space. In contrast, neighborhoods on the northeast side of Denver show higher amounts of vegetation and, more generally, lower rates of short sleep.
@@ -37,7 +63,7 @@ To quantify green space, I used satellite-derived Normalized Difference Vegetati
     height: 500px;           /* MUST be big enough to show the scaled iframe */
   ">
     <iframe
-      src="https://hellafolk.github.io/img/ndvi_2023_over_alaska.html"
+      src="https://hellafolk.github.io/img/sleep_vs_vegetation.html"
       style="
         position: absolute;
         top: 0;
@@ -61,13 +87,38 @@ The figure shows scatter plots and distributions for short sleep duration and se
 
 Overall, while the vegetation metrics are strongly related to each other, their relationship with short sleep duration appears weak and scattered, suggesting that green space alone may not be a strong predictor of short sleep at the census-tract level in Denver. 
 
-<p align="center" style="margin: 2rem 0;">
-  <img 
-    src="https://hellafolk.github.io/img/juneau_ndvi_summer_timelapse_new.gif" 
-    alt="Illustration of birds perceiving Earth's magnetic fields"
-    style="width: 90%; max-width: 600px; border-radius: 12px;"
-  >
-</p>
+<div style="
+  width: 100%;
+  overflow-x: visible;
+  overflow-y: visible;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+">
+  <div style="
+    position: relative;
+    width: 100%;
+    max-width: 800px;        /* match theme body width */
+    height: 500px;           /* MUST be big enough to show the scaled iframe */
+  ">
+    <iframe
+      src="https://hellafolk.github.io/img/scatter_matrix_transformed.html"
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: scale(0.6);   /* <--- shrink it */
+        width: 1300px;           /* pretend size of real map content */
+        height: 820px;           /* pretend size of real map content */
+        border: none;
+        border-radius: 12px;
+      "
+      loading="lazy"
+      scrolling="no"
+    ></iframe>
+  </div>
+</div>
 
 I decided to give the relationship between sleep and green space one last shot by building a simple linear regression model to predict short sleep duration using vegetation edge density. I trained the model on 70% of the data and tested it on the remaining 30%. When I mapped the model error, it became clear that the model did not do a good job predicting sleep based on urban green space alone.
 
@@ -77,26 +128,28 @@ Overall, this assignment was a good reminder not to chase outcomes. While it is 
 
 <div style="
   width: 100%;
+  overflow-x: visible;
+  overflow-y: visible;
   display: flex;
   justify-content: center;
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 ">
   <div style="
     position: relative;
     width: 100%;
-    max-width: 850px;     /* a little wider than before */
-    padding-top: 45%;     /* controls the aspect ratio, removes big white space */
+    max-width: 800px;        /* match theme body width */
+    height: 500px;           /* MUST be big enough to show the scaled iframe */
   ">
     <iframe
-      src="https://hellafolk.github.io/img/ndvi_trend_2000_2023_embedded.html"
+      src="https://hellafolk.github.io/img/short_sleep_model_error_map.html"
       style="
         position: absolute;
         top: 0;
         left: 0;
-        width: 1400px;       /* pretend width of real content */
-        height: 900px;       /* pretend height of real content */
-        transform: scale(0.75);         /* increase display size */
         transform-origin: top left;
+        transform: scale(0.6);   /* <--- shrink it */
+        width: 1300px;           /* pretend size of real map content */
+        height: 820px;           /* pretend size of real map content */
         border: none;
         border-radius: 12px;
       "

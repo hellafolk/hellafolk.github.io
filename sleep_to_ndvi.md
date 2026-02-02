@@ -143,20 +143,21 @@ Overall, this assignment was a good reminder not to chase outcomes. While it is 
     ></iframe>
   </div>
 </div>
-
-
+---
 <small>
 Data credit to: MODIS/Terra Vegetation Indices (MOD13Q1 v6.1), NASA LP DAAC (Didan, 2021).
 <a href="https://doi.org/10.5067/MODIS/MOD13Q1.061" target="_blank">
 https://doi.org/10.5067/MODIS/MOD13Q1.061
 </a>
 </small>
+
 <small>
 Satellite data accessed via the Microsoft Planetary Computer STAC Catalog.
 <a href="https://planetarycomputer.microsoft.com" target="_blank">
 https://planetarycomputer.microsoft.com
 </a>
 </small>
+
 <small>
 Sleep duration data from the Centers for Disease Control and Prevention (CDC),
 PLACES: Local Data for Better Health.
@@ -164,12 +165,14 @@ PLACES: Local Data for Better Health.
 https://www.cdc.gov/places
 </a>
 </small>
+
 <small>
 Census tract boundaries from the U.S. Census Bureau TIGER/Line Shapefiles.
 <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html" target="_blank">
 https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
 </a>
 </small>
+
 <small>
 Colorado sleep context from the Colorado Health Institute,
 “Let’s Sleep on It, Colorado.”

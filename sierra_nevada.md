@@ -7,10 +7,6 @@ The Sierra Valley, nestled on the border of Northern California and Western Neva
 
 Eventually, I convinced my parents to let me move there full time to finish high school. Living with the valley year-round made its contrasts impossible to ignore. One of the largest alpine valleys in North America (The Nature Conservancy, n.d.), Sierra Valley is ecologically rich, seasonally flooded, and a critical stop along the Pacific Flyway for migratory birds (California Department of Fish and Wildlife, n.d.). Yet it is also a working landscape shaped by generations of ranching. Irrigated fields border wetlands. Historic barns sit beneath snow-covered peaks. Wilderness and agriculture coexist.
 
-In this assignment, I worked with satellite imagery of Sierra Valley that measures surface reflectance across several spectral bands. After adjusting the data to reflect true surface values and trimming it to the watershed boundary, I removed pixels affected by clouds. I then combined multiple images taken on different dates throughout the summer into a single median composite image to create a cleaner view of the area. Finally, I organized the data so that each pixel had reflectance values for each band, which allowed me to compare pixels across the valley.
-
-I then used k-means clustering (k = 5) to group pixels based on how similar their reflectance values were. The resulting clusters reveal how different surface types, such as wetlands and irrigated fields or prarie and rocky outcroppings, are distributed across the valley.
-
 ---
 <p align="center">
   <img 
@@ -26,6 +22,9 @@ I then used k-means clustering (k = 5) to group pixels based on how similar thei
 </div>
 ---
 
+In this assignment, I worked with satellite imagery of Sierra Valley that measures surface reflectance across several spectral bands. After adjusting the data to reflect true surface values and trimming it to the watershed boundary, I removed pixels affected by clouds. I then combined multiple images taken on different dates throughout the summer into a single median composite image to create a cleaner view of the area. Finally, I organized the data so that each pixel had reflectance values for each band, which allowed me to compare pixels across the valley.
+
+I then used k-means clustering (k = 5) to group pixels based on how similar their reflectance values were. The resulting clusters reveal how different surface types, such as wetlands and irrigated fields or prarie and rocky outcroppings, are distributed across the valley.
 
 <div style="
   width: 100%;

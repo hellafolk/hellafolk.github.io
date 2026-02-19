@@ -24,7 +24,7 @@ Eventually, I convinced my parents to let me move there full time to finish high
 
 In this assignment, I worked with satellite imagery of Sierra Valley that measures surface reflectance across several spectral bands. After adjusting the data to reflect true surface values and trimming it to the watershed boundary, I removed pixels affected by clouds. I then combined multiple images taken on different dates throughout the summer into a single median composite image to create a cleaner view of the area. Finally, I organized the data so that each pixel had reflectance values for each band, which allowed me to compare pixels across the valley.
 
-
+---
 <div style="
   width: 100%;
   overflow-x: visible;
@@ -58,10 +58,11 @@ In this assignment, I worked with satellite imagery of Sierra Valley that measur
   </div>
 </div>
 
+---
+
 I then used k-means clustering (k = 5) to group pixels based on how similar their reflectance values were. The resulting clusters reveal how different surface types, such as wetlands and irrigated fields or prarie and rocky outcroppings, are distributed across the valley.
 
-Overall, the clustering results make intuitive sense when compared to the landscape I know. Large wetland areas and open water separate clearly from drier uplands, and many of the irrigated fields group together as their own distinct class. In some places, especially where pasture transitions into marsh or where soil moisture changes across a field, the clusters blend together. That feels accurate too — the valley isn’t made up of hard boundaries, but gradual shifts. While k-means doesn’t “know” what water or vegetation is, it does a surprisingly good job of organizing the landscape based purely on reflectance. Seeing those familiar patterns emerge from data reinforces how remote sensing can capture the structure of a place that once felt defined only by experience.
-
+---
 
 <div style="
   width: 100%;
@@ -78,7 +79,7 @@ Overall, the clustering results make intuitive sense when compared to the landsc
     height: 500px;           /* MUST be big enough to show the scaled iframe */
   ">
     <iframe
-      src="https://hellafolk.github.io/img/scatter_matrix_transformed.html"
+      src="https://hellafolk.github.io/img/sierra_valley_composite.html"
       style="
         position: absolute;
         top: 0;
@@ -95,6 +96,10 @@ Overall, the clustering results make intuitive sense when compared to the landsc
     ></iframe>
   </div>
 </div>
+-----
+
+Overall, the clustering results make intuitive sense when compared to the landscape I know. Large wetland areas and open water separate clearly from drier uplands, and many of the irrigated fields group together as their own distinct class. In some places, especially where pasture transitions into marsh or where soil moisture changes across a field, the clusters blend together. That feels accurate too — the valley isn’t made up of hard boundaries, but gradual shifts. While k-means doesn’t “know” what water or vegetation is, it does a surprisingly good job of organizing the landscape based purely on reflectance. Seeing those familiar patterns emerge from data reinforces how remote sensing can capture the structure of a place that once felt defined only by experience.
+
 
 
 

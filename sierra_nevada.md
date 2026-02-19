@@ -8,17 +8,17 @@ The Sierra Valley, nestled on the border of Northern California and Western Neva
 Eventually, I convinced my parents to let me move there full time to finish high school. Living with the valley year-round made its contrasts impossible to ignore. One of the largest alpine valleys in North America (The Nature Conservancy, n.d.), Sierra Valley is ecologically rich, seasonally flooded, and a critical stop along the Pacific Flyway for migratory birds (California Department of Fish and Wildlife, n.d.). Yet it is also a working landscape shaped by generations of ranching. Irrigated fields border wetlands. Historic barns sit beneath snow-covered peaks. Wilderness and agriculture coexist.
 
 ---
-<p align="center">
+<div style="margin:1.5rem 0;">
   <img 
     src="https://hellafolk.github.io/img/4DC8C30A-0BB1-4EEE-AD8C-A803BD115110.jpeg"
-    style="width: 90%; max-width: 500px; border-radius: 12px;"
+    style="
+      width:100%;
+      max-width:500px;
+      border-radius:12px;
+      display:block;
+      margin:0 auto;
+    "
   >
-</p>
-<div style="text-align: center; max-width: 600px; margin: 0 auto;">
-  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
-    <em>Photo by:
-    <a Myself</a>.</em>
-  </p>
 </div>
 ---
 

@@ -24,36 +24,12 @@ Eventually, I convinced my parents to let me move there full time to finish high
 
 In this assignment, I worked with satellite imagery of Sierra Valley that measures surface reflectance across several spectral bands. After adjusting the data to reflect true surface values and trimming it to the watershed boundary, I removed pixels affected by clouds. I then combined multiple images taken on different dates throughout the summer into a single median composite image to create a cleaner view of the area. Finally, I organized the data so that each pixel had reflectance values for each band, which allowed me to compare pixels across the valley.
 
-<div style="
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-">
-  <div style="
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    height: 650px;
-  ">
-    <iframe
-      src="https://hellafolk.github.io/img/sierra_valley_study_site.html"
-      style="
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform-origin: top center;
-        transform: translateX(-50%) scale(0.8);
-        width: 1300px;
-        height: 820px;
-        border: none;
-        border-radius: 12px;
-      "
-      loading="lazy"
-      scrolling="no"
-    ></iframe>
-  </div>
-</div>
+<iframe
+  src="https://hellafolk.github.io/img/sierra_valley_study_site.html"
+  width="800"
+  height="500"
+  style="border:none; border-radius:12px; display:block; margin:2rem auto;">
+</iframe>
 
 
 I then used k-means clustering (k = 5) to group pixels based on how similar their reflectance values were. The resulting clusters reveal how different surface types, such as wetlands and irrigated fields or prarie and rocky outcroppings, are distributed across the valley.

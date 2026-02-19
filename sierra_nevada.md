@@ -24,12 +24,16 @@ Eventually, I convinced my parents to let me move there full time to finish high
 
 In this assignment, I worked with satellite imagery of Sierra Valley that measures surface reflectance across several spectral bands. After adjusting the data to reflect true surface values and trimming it to the watershed boundary, I removed pixels affected by clouds. I then combined multiple images taken on different dates throughout the summer into a single median composite image to create a cleaner view of the area. Finally, I organized the data so that each pixel had reflectance values for each band, which allowed me to compare pixels across the valley.
 
-<iframe
-  src="https://hellafolk.github.io/img/sierra_valley_study_site.html"
-  width="800"
-  height="500"
-  style="border:none; border-radius:12px; display:block; margin:2rem auto;">
-</iframe>
+<div style="text-align:center; margin:1rem 0;">
+  <iframe
+    src="https://hellafolk.github.io/img/sierra_valley_study_site.html"
+    width="800"
+    height="500"
+    style="border:none; border-radius:12px; display:block; margin:0 auto;"
+    loading="lazy">
+  </iframe>
+</div>
+
 I then used k-means clustering (k = 5) to group pixels based on how similar their reflectance values were. The resulting clusters reveal how different surface types, such as wetlands and irrigated fields or prarie and rocky outcroppings, are distributed across the valley.
 
 <iframe
@@ -52,7 +56,6 @@ Overall, the clustering results make intuitive sense when compared to the landsc
 </iframe>
 
 ---
----
 
 <small>
 Surface reflectance data from Harmonized Landsat and Sentinel-2 (HLS), NASA LP DAAC.
@@ -61,8 +64,6 @@ https://lpdaac.usgs.gov/products/hlsl30v002/
 </a>
 </small>
 
-<br>
-
 <small>
 Satellite imagery accessed via the Microsoft Planetary Computer STAC Catalog.
 <a href="https://planetarycomputer.microsoft.com" target="_blank">
@@ -70,16 +71,12 @@ https://planetarycomputer.microsoft.com
 </a>
 </small>
 
-<br>
-
 <small>
 Watershed boundary data from the U.S. Geological Survey (USGS) Watershed Boundary Dataset (WBD).
 <a href="https://www.usgs.gov/national-hydrography/watershed-boundary-dataset" target="_blank">
 https://www.usgs.gov/national-hydrography/watershed-boundary-dataset
 </a>
 </small>
-
-<br>
 
 <small>
 Background basemap imagery © Esri, Earthstar Geographics.

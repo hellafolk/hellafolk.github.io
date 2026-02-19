@@ -31,81 +31,27 @@ In this assignment, I worked with satellite imagery of Sierra Valley that measur
   style="border:none; border-radius:12px; display:block; margin:2rem auto;">
 </iframe>
 
-
 I then used k-means clustering (k = 5) to group pixels based on how similar their reflectance values were. The resulting clusters reveal how different surface types, such as wetlands and irrigated fields or prarie and rocky outcroppings, are distributed across the valley.
 
----
+<iframe
+  src="https://hellafolk.github.io/img/sierra_valley_composite.html"
+  width="800"
+  height="500"
+  style="border:none; border-radius:12px; display:block; margin:2rem auto;"
+  loading="lazy">
+</iframe>
 
-<div style="
-  width: 100%;
-  overflow-x: visible;
-  overflow-y: visible;
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-">
-  <div style="
-    position: relative;
-    width: 100%;
-    max-width: 800px;        /* match theme body width */
-    height: 500px;           /* MUST be big enough to show the scaled iframe */
-  ">
-    <iframe
-      src="https://hellafolk.github.io/img/sierra_valley_composite.html"
-      style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform-origin: top left;
-        transform: scale(.8);   /* <--- shrink it */
-        width: 1300px;           /* pretend size of real map content */
-        height: 820px;           /* pretend size of real map content */
-        border: none;
-        border-radius: 12px;
-      "
-      loading="lazy"
-      scrolling="no"
-    ></iframe>
-  </div>
-</div>
------
 
 Overall, the clustering results make intuitive sense when compared to the landscape I know. Large wetland areas and open water separate clearly from drier uplands, and many of the irrigated fields group together as their own distinct class. In some places, especially where pasture transitions into marsh or where soil moisture changes across a field, the clusters blend together. That feels accurate too — the valley isn’t made up of hard boundaries, but gradual shifts. While k-means doesn’t “know” what water or vegetation is, it does a surprisingly good job of organizing the landscape based purely on reflectance. Seeing those familiar patterns emerge from data reinforces how remote sensing can capture the structure of a place that once felt defined only by experience.
 
----
+<iframe
+  src="https://hellafolk.github.io/img/sierra_valley_spectral_clustering_k5.html"
+  width="800"
+  height="500"
+  style="display:block; margin:2rem auto; border:none; border-radius:12px;"
+  loading="lazy">
+</iframe>
 
-<div style="
-  width: 100%;
-  overflow-x: visible;
-  overflow-y: visible;
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-">
-  <div style="
-    position: relative;
-    width: 100%;
-    max-width: 800px;        /* match theme body width */
-    height: 500px;           /* MUST be big enough to show the scaled iframe */
-  ">
-    <iframe
-      src="https://hellafolk.github.io/img/sierra_valley_spectral_clustering_k5.html"
-      style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform-origin: top left;
-        transform: scale(.8);   /* <--- shrink it */
-        width: 1300px;           /* pretend size of real map content */
-        height: 820px;           /* pretend size of real map content */
-        border: none;
-        border-radius: 12px;
-      "
-      loading="lazy"
-      scrolling="no"
-    ></iframe>
-  </div>
-</div>
 ---
 <small>
 Data credit to: MODIS/Terra Vegetation Indices (MOD13Q1 v6.1), NASA LP DAAC (Didan, 2021).

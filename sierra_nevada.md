@@ -16,8 +16,8 @@ Eventually, I convinced my parents to let me move there full time to finish high
 </p>
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
-    <em>Downtown Denver Source: 
-    <a By Spicypepper999 - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=180627168</a>.</em>
+    <em>Photo by:
+    <a Myself</a>.</em>
   </p>
 </div>
 ---

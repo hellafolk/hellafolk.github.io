@@ -100,9 +100,7 @@ I then used k-means clustering (k = 5) to group pixels based on how similar thei
 
 Overall, the clustering results make intuitive sense when compared to the landscape I know. Large wetland areas and open water separate clearly from drier uplands, and many of the irrigated fields group together as their own distinct class. In some places, especially where pasture transitions into marsh or where soil moisture changes across a field, the clusters blend together. That feels accurate too — the valley isn’t made up of hard boundaries, but gradual shifts. While k-means doesn’t “know” what water or vegetation is, it does a surprisingly good job of organizing the landscape based purely on reflectance. Seeing those familiar patterns emerge from data reinforces how remote sensing can capture the structure of a place that once felt defined only by experience.
 
-
-
-
+---
 
 <div style="
   width: 100%;
@@ -119,7 +117,7 @@ Overall, the clustering results make intuitive sense when compared to the landsc
     height: 500px;           /* MUST be big enough to show the scaled iframe */
   ">
     <iframe
-      src="https://hellafolk.github.io/img/short_sleep_model_error_map.html"
+      src="https://hellafolk.github.io/img/sierra_valley_spectral_clustering_k5.html"
       style="
         position: absolute;
         top: 0;

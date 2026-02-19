@@ -30,7 +30,6 @@ In this assignment, I worked with satellite imagery of Sierra Valley that measur
   height="500"
   style="border:none; border-radius:12px; display:block; margin:2rem auto;">
 </iframe>
-
 I then used k-means clustering (k = 5) to group pixels based on how similar their reflectance values were. The resulting clusters reveal how different surface types, such as wetlands and irrigated fields or prarie and rocky outcroppings, are distributed across the valley.
 
 <iframe
@@ -53,42 +52,35 @@ Overall, the clustering results make intuitive sense when compared to the landsc
 </iframe>
 
 ---
+---
+
 <small>
-Data credit to: MODIS/Terra Vegetation Indices (MOD13Q1 v6.1), NASA LP DAAC (Didan, 2021).
-<a href="https://doi.org/10.5067/MODIS/MOD13Q1.061" target="_blank">
-https://doi.org/10.5067/MODIS/MOD13Q1.061
+Surface reflectance data from Harmonized Landsat and Sentinel-2 (HLS), NASA LP DAAC.
+<a href="https://lpdaac.usgs.gov/products/hlsl30v002/" target="_blank">
+https://lpdaac.usgs.gov/products/hlsl30v002/
 </a>
 </small>
 
+<br>
+
 <small>
-Satellite data accessed via the Microsoft Planetary Computer STAC Catalog.
+Satellite imagery accessed via the Microsoft Planetary Computer STAC Catalog.
 <a href="https://planetarycomputer.microsoft.com" target="_blank">
 https://planetarycomputer.microsoft.com
 </a>
 </small>
 
+<br>
+
 <small>
-Sleep duration data from the Centers for Disease Control and Prevention (CDC),
-PLACES: Local Data for Better Health.
-<a href="https://www.cdc.gov/places" target="_blank">
-https://www.cdc.gov/places
+Watershed boundary data from the U.S. Geological Survey (USGS) Watershed Boundary Dataset (WBD).
+<a href="https://www.usgs.gov/national-hydrography/watershed-boundary-dataset" target="_blank">
+https://www.usgs.gov/national-hydrography/watershed-boundary-dataset
 </a>
 </small>
 
-<small>
-Census tract boundaries from the U.S. Census Bureau TIGER/Line Shapefiles.
-<a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html" target="_blank">
-https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
-</a>
-</small>
+<br>
 
 <small>
-Colorado sleep context from the Colorado Health Institute,
-“Let’s Sleep on It, Colorado.”
-<a href="https://www.coloradohealthinstitute.org/blog/lets-sleep-it-colorado" target="_blank">
-https://www.coloradohealthinstitute.org/blog/lets-sleep-it-colorado
-</a>
+Background basemap imagery © Esri, Earthstar Geographics.
 </small>
-
-
-

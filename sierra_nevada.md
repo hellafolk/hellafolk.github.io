@@ -24,12 +24,16 @@ Eventually, I convinced my parents to let me move there full time to finish high
 
 In this assignment, I worked with satellite imagery of Sierra Valley that measures surface reflectance across several spectral bands. After adjusting the data to reflect true surface values and trimming it to the watershed boundary, I removed pixels affected by clouds. I then combined multiple images taken on different dates throughout the summer into a single median composite image to create a cleaner view of the area. Finally, I organized the data so that each pixel had reflectance values for each band, which allowed me to compare pixels across the valley.
 
-<div style="text-align:center; margin:1rem 0;">
+<div style="margin:1rem 0;">
   <iframe
     src="https://hellafolk.github.io/img/sierra_valley_study_site.html"
-    width="800"
-    height="500"
-    style="border:none; border-radius:12px; display:block; margin:0 auto;"
+    style="
+      width:100%;
+      height:500px;
+      border:none;
+      border-radius:12px;
+      display:block;
+    "
     loading="lazy">
   </iframe>
 </div>

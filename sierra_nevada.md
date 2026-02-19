@@ -10,7 +10,7 @@ Eventually, I convinced my parents to let me move there full time to finish high
 ---
 <p align="center">
   <img 
-    src="https://hellafolk.github.io/img/Denver_Downtown_Aerial,_December_2025.jpg"
+    src="https://hellafolk.github.io/img/4DC8C30A-0BB1-4EEE-AD8C-A803BD115110.jpeg"
     style="width: 90%; max-width: 500px; border-radius: 12px;"
   >
 </p>

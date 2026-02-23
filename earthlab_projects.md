@@ -38,4 +38,10 @@ Comparing MBL, CT PBL, and Ship Obs
 
 A Denver case study
 
+---
+
+### [Reflectance of the Valley](sierra_nevada.md)
+
+Mapping the Sierra Valley
+
 

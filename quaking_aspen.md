@@ -14,7 +14,7 @@ In this project, I look at how suitable habitat for aspen may shift under future
 ---
 <div style="margin:1.5rem 0;">
   <img 
-    src="https://hellafolk.github.io/img/4DC8C30A-0BB1-4EEE-AD8C-A803BD115110.jpeg"
+    src="https://hellafolk.github.io/img/2405CDBF-E94A-4942-9DDE-9C10917DDA84.jpeg"
     style="
       width:100%;
       max-width:500px;

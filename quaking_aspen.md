@@ -26,7 +26,7 @@ In this project, I look at how suitable habitat for aspen may shift under future
 </div>
 ---
 
-To explore how habitat suitability might shift across different environments, I chose two study sites in Colorado that represent different conditions for aspen. Using the USGS Protected Areas Database (PAD-US v4.1), I focused on National Parks of similar size and picked locations where aspens are present, but where climate and elevation vary a lot. Rocky Mountain National Park (ROMO), my first site, represents a higher-elevation, cooler environment with more snowpack. Great Sand Dunes National Park (GSNP) has a much smaller aspen population, where conditions are warmer and drier. Looking at both together lets me compare an already comfortable habitat (ROMO) with one that’s pushing the limits (GSNP), and see how those might shift with climate change.
+To explore how habitat suitability might shift across different environments, I chose two study sites in Colorado that represent different conditions for aspen. Using the USGS Protected Areas Database (PAD-US v4.1), I focused on National Parks of similar size and picked locations where aspens are present, but where climate and elevation vary a lot. Rocky Mountain National Park (ROMO), my first site, represents a higher-elevation, cooler environment with more snowpack. Great Sand Dunes National Park (GRSA) has a much smaller aspen population, where conditions are warmer and drier. Looking at both together lets me compare an already comfortable habitat (ROMO) with one that’s pushing the limits (GRSA), and see how those might shift with climate change.
 
 <img 
   src="https://hellafolk.github.io/img/sites_2_final_map.png"

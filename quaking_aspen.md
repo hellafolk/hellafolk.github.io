@@ -68,3 +68,30 @@ In Rocky Mountain National Park, suitability generally increases at higher eleva
   src="https://hellafolk.github.io/img/difference_map_2041_2070.png"
   style="width:100%; max-width:900px; height:auto; display:block; margin:2rem auto; border-radius:12px;"
 />
+
+----
+<div style="font-size:0.85rem; color:#555; margin-top:3rem; line-height:1.5;">
+
+<b>Sources</b><br>
+
+USGS GAP Analysis Project. Protected Areas Database of the United States (PAD-US v4.1).<br>
+
+Abatzoglou, J. T. (2013). Development of gridded surface meteorological data for ecological applications (MACA v2).<br>
+
+Climate Futures Toolbox (University of Colorado Boulder & NOAA GSL).<br>
+
+CMIP5 Climate Models: CNRM-CM5, MIROC5, IPSL-CM5A-LR, HadGEM2-ES365.<br>
+
+PRISM Climate Group, Oregon State University (temperature and precipitation data).<br>
+
+POLARIS Soil Dataset (Chaney et al., 2016). Soil properties including saturated water content and organic matter.<br>
+
+Esri World Imagery Basemap (Esri, Maxar, Earthstar Geographics).<br>
+
+USGS EarthExplorer / Landsat-based products (for environmental context).<br>
+
+Jones, J. R., et al. (2005). Climate change and aspen decline in western North America.<br>
+
+Rogers, P. C., et al. (2010). A framework for understanding aspen persistence under climate change.<br>
+
+</div>

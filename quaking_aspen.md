@@ -14,7 +14,7 @@ In this project, I look at how suitable habitat for aspen may shift under future
 ---
 <div style="margin:1.5rem 0;">
   <img 
-    src="https://hellafolk.github.io/img/2405CDBF-E94A-4942-9DDE-9C10917DDA84.jpeg"
+    src="https://hellafolk.github.io/img/IMG_3294.jpeg"
     style="
       width:100%;
       max-width:500px;
@@ -30,7 +30,7 @@ To explore how habitat suitability might shift across different environments, I 
 
 <div style="max-width:900px; margin:1.5rem auto;">
   <iframe
-    src="https://hellafolk.github.io/img/aspen_sites_map.html"
+    src="https://hellafolk.github.io/img/sites_map.html"
     style="
       width:100%;
       height:clamp(300px, 45vw, 420px);
@@ -47,15 +47,6 @@ I selected two 30-year climate periods: 2011–2040 and 2041–2070. These windo
 To model habitat suitability across future scenarios, I used MACAv2 downscaled climate data in combination with the Climate Futures Toolbox to select representative projections for each site. To capture the range of possible climates within these time periods, I selected four models that span the extremes of projected temperature and precipitation: cool and wet (CNRM-CM5), cool and dry (MIROC5), hot and dry (IPSL-CM5A-LR), and hot and wet (HadGEM2-ES365). This allows me to explore not just a single future, but a range of plausible conditions that could influence where aspen can persist.
 
 I focused on a high-emissions scenario (RCP 8.5) to capture a more extreme, but still plausible, trajectory of future climate change. In addition to temperature and precipitation, I incorporated environmental variables that directly influence aspen growth, including elevation, slope, and aspect to capture topographic controls on solar radiation and drainage, as well as soil properties such as saturated water content and soil organic matter, which reflect water availability, nutrient cycling, and overall soil health. Together, these variables provide a more complete representation of the physical conditions that determine where quaking aspen can persist under changing climate conditions.
-
-<iframe
-  src="https://hellafolk.github.io/img/sierra_valley_composite.html"
-  width="800"
-  height="500"
-  style="border:none; border-radius:12px; display:block; margin:2rem auto;"
-  loading="lazy">
-</iframe>
-
 
 To estimate habitat suitability, I used a Gaussian fuzzy logic approach to translate each environmental variable into a continuous suitability score. Instead of applying strict thresholds (e.g., suitable vs. not suitable), this method allows conditions to be partially suitable depending on how close they are to an optimal value for aspen growth. Temperature, precipitation, elevation, slope, aspect, soil moisture, and soil organic matter were assigned an optimal range and a tolerance, which controls how quickly suitability declines as conditions move away from that sweet spot. The final habitat suitability map is calculated by averaging across all variables, allowing multiple factors to contribute without any single one dominating the result.
 

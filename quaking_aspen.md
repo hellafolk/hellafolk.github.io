@@ -59,21 +59,15 @@ I focused on a high-emissions scenario (RCP 8.5) to capture a more extreme, but 
 
 To estimate habitat suitability, I used a Gaussian fuzzy logic approach to translate each environmental variable into a continuous suitability score. Instead of applying strict thresholds (e.g., suitable vs. not suitable), this method allows conditions to be partially suitable depending on how close they are to an optimal value for aspen growth. Temperature, precipitation, elevation, slope, aspect, soil moisture, and soil organic matter were assigned an optimal range and a tolerance, which controls how quickly suitability declines as conditions move away from that sweet spot. The final habitat suitability map is calculated by averaging across all variables, allowing multiple factors to contribute without any single one dominating the result.
 
-<iframe
+<img 
   src="https://hellafolk.github.io/img/suitability_2011_2040.png"
-  width="800"
-  height="500"
-  style="border:none; border-radius:12px; display:block; margin:2rem auto;"
-  loading="lazy">
-</iframe>
+  style="width:100%; max-width:900px; height:auto; display:block; margin:2rem auto; border-radius:12px;"
+/>
 
-<iframe
+<img 
   src="https://hellafolk.github.io/img/suitability_2041_2070.png"
-  width="800"
-  height="500"
-  style="border:none; border-radius:12px; display:block; margin:2rem auto;"
-  loading="lazy">
-</iframe>
+  style="width:100%; max-width:900px; height:auto; display:block; margin:2rem auto; border-radius:12px;"
+/>
 
 Overall, my results suggest that habitat suitability for quaking aspen is shifting in both elevation and spatial distribution under future climate conditions. Initially, these changes were difficult to see clearly, so I compared time periods directly by subtracting one from the other to highlight differences in habitability. This made the patterns much more apparent.
 

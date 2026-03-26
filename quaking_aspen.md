@@ -79,13 +79,7 @@ Overall, my results suggest that habitat suitability for quaking aspen is shifti
 
 In Rocky Mountain National Park, suitability generally increases at higher elevations, while lower elevations become less suitable, indicating an upward shift driven by warming temperatures. In contrast, Great Sand Dunes National Park shows an overall decline in suitability, suggesting that already marginal environments may become increasingly inhospitable as conditions become warmer and drier. Across the climate models, cooler and wetter scenarios tend to maintain or expand suitable habitat, while hotter and drier scenarios show widespread declines. 
 
-
-<iframe
+<img 
   src="https://hellafolk.github.io/img/difference_map_2041_2070.png"
-  width="800"
-  height="500"
-  style="display:block; margin:2rem auto; border:none; border-radius:12px;"
-  loading="lazy">
-</iframe>
-
----
+  style="width:100%; max-width:900px; height:auto; display:block; margin:2rem auto; border-radius:12px;"
+/>

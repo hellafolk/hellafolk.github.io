@@ -30,7 +30,7 @@ To explore how habitat suitability might shift across different environments, I 
 
 <div style="max-width:900px; margin:1.5rem auto;">
   <iframe
-    src="https://hellafolk.github.io/img/sites_map.html"
+    src="https://hellafolk.github.io/img/sites_2_final_map.html"
     style="
       width:100%;
       height:clamp(300px, 45vw, 420px);

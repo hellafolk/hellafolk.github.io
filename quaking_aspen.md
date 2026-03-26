@@ -44,7 +44,9 @@ To explore how habitat suitability might shift across different environments, I 
 
 I selected two 30-year climate periods: 2011–2040 and 2041–2070. These windows follow standard climate normals and allow for a comparison between near-future and mid-century conditions. They also represent a span of my own lifetime. The first period reflecting the climate I am growing up in, while the second representing the climate I will grow old in.
 
-To capture the range of possible future climates within these time periods, I selected four climate models that span the extremes of projected temperature and precipitation: cool and wet (CNRM-CM5), cool and dry (MIROC5), hot and dry (IPSL-CM5A-LR), and hot and wet (HadGEM2-ES365). Using this set of models allows me to explore not just a single future, but a range of plausible conditions that could influence where aspen can persist.
+To model habitat suitability across future scenarios, I used MACAv2 downscaled climate data in combination with the Climate Futures Toolbox to select representative projections for each site. To capture the range of possible climates within these time periods, I selected four models that span the extremes of projected temperature and precipitation: cool and wet (CNRM-CM5), cool and dry (MIROC5), hot and dry (IPSL-CM5A-LR), and hot and wet (HadGEM2-ES365). This allows me to explore not just a single future, but a range of plausible conditions that could influence where aspen can persist.
+
+I focused on a high-emissions scenario (RCP 8.5) to capture a more extreme, but still plausible, trajectory of future climate change. In addition to temperature and precipitation, I incorporated environmental variables that directly influence aspen growth, including elevation, slope, and aspect to capture topographic controls on solar radiation and drainage, as well as soil properties such as saturated water content and soil organic matter, which reflect water availability, nutrient cycling, and overall soil health. Together, these variables provide a more complete representation of the physical conditions that determine where quaking aspen can persist under changing climate conditions.
 
 <iframe
   src="https://hellafolk.github.io/img/sierra_valley_composite.html"
@@ -55,19 +57,31 @@ To capture the range of possible future climates within these time periods, I se
 </iframe>
 
 
-Overall, the clustering results make intuitive sense when compared to the landscape I know. Large wetland areas and open water separate clearly from drier uplands, and many of the irrigated fields group together as their own distinct class. In some places, especially where pasture transitions into marsh or where soil moisture changes across a field, the clusters blend together. That feels accurate too — the valley isn’t made up of hard boundaries, but gradual shifts. While k-means doesn’t “know” what water or vegetation is, it does a surprisingly good job of organizing the landscape based purely on reflectance. Seeing those familiar patterns emerge from data reinforces how remote sensing can capture the structure of a place that once felt defined only by experience.
+To estimate habitat suitability, I used a Gaussian fuzzy logic approach to translate each environmental variable into a continuous suitability score. Instead of applying strict thresholds (e.g., suitable vs. not suitable), this method allows conditions to be partially suitable depending on how close they are to an optimal value for aspen growth. Temperature, precipitation, elevation, slope, aspect, soil moisture, and soil organic matter were assigned an optimal range and a tolerance, which controls how quickly suitability declines as conditions move away from that sweet spot. The final habitat suitability map is calculated by averaging across all variables, allowing multiple factors to contribute without any single one dominating the result.
 
+<iframe
+  src="https://hellafolk.github.io/img/suitability_2011_2040.png"
+  width="800"
+  height="500"
+  style="border:none; border-radius:12px; display:block; margin:2rem auto;"
+  loading="lazy">
+</iframe>
 
-To model habitat suitability across these scenarios, I used MACAv2 downscaled climate data in combination with the Climate Futures Toolbox to select representative climate projections for each site. I focused on a high-emissions scenario (RCP 8.5) to capture a more extreme, but still plausible, trajectory of future climate change. In addition to temperature and precipitation from the climate models, I incorporated environmental variables that directly influence aspen growth, including elevation, slope, and aspect to capture topographic controls on solar radiation and drainage, as well as soil properties such as saturated water content and soil organic matter, which reflect water availability, nutrient cycling, and overall soil health. Together, these variables allow for a more complete representation of the physical conditions that determine where quaking aspen can persist under changing climate conditions.
+<iframe
+  src="https://hellafolk.github.io/img/suitability_2041_2070.png"
+  width="800"
+  height="500"
+  style="border:none; border-radius:12px; display:block; margin:2rem auto;"
+  loading="lazy">
+</iframe>
 
+Overall, my results suggest that habitat suitability for quaking aspen is shifting in both elevation and spatial distribution under future climate conditions. Initially, these changes were difficult to see clearly, so I compared time periods directly by subtracting one from the other to highlight differences in habitability. This made the patterns much more apparent.
 
-To estimate habitat suitability, I used a Gaussian fuzzy logic approach to translate each environmental variable into a continuous suitability score. Instead of applying strict thresholds (e.g., suitable vs. not suitable), this method allows conditions to be partially suitable depending on how close they are to an optimal value for aspen growth. Each variable—temperature, precipitation, elevation, slope, aspect, soil moisture, and soil organic matter—was assigned an optimal range and a tolerance, which controls how quickly suitability declines as conditions move away from that optimum. The final habitat suitability map is calculated by averaging across all variables, allowing multiple factors to contribute without any single one dominating the result.
-
-Overall, my results suggest that habitat suitability for quaking aspen is shifting in both elevation and spatial distribution under future climate conditions. In Rocky Mountain National Park, suitability generally increases at higher elevations, while lower elevations become less suitable, indicating an upward shift driven by warming temperatures. In contrast, Great Sand Dunes National Park shows an overall decline in suitability, suggesting that already marginal environments may become increasingly inhospitable as conditions become warmer and drier. Across the climate models, cooler and wetter scenarios tend to maintain or expand suitable habitat, while hotter and drier scenarios show widespread declines. Together, these patterns highlight how sensitive aspen is to changes in temperature and moisture, and suggest that future persistence will depend strongly on the availability of cooler, moisture-supported refugia.
+In Rocky Mountain National Park, suitability generally increases at higher elevations, while lower elevations become less suitable, indicating an upward shift driven by warming temperatures. In contrast, Great Sand Dunes National Park shows an overall decline in suitability, suggesting that already marginal environments may become increasingly inhospitable as conditions become warmer and drier. Across the climate models, cooler and wetter scenarios tend to maintain or expand suitable habitat, while hotter and drier scenarios show widespread declines. 
 
 
 <iframe
-  src="https://hellafolk.github.io/img/sierra_valley_spectral_clustering_k5.html"
+  src="https://hellafolk.github.io/img/difference_map_2041_2070.png"
   width="800"
   height="500"
   style="display:block; margin:2rem auto; border:none; border-radius:12px;"
@@ -75,28 +89,3 @@ Overall, my results suggest that habitat suitability for quaking aspen is shifti
 </iframe>
 
 ---
-
-<small>
-Surface reflectance data from Harmonized Landsat and Sentinel-2 (HLS), NASA LP DAAC.
-<a href="https://lpdaac.usgs.gov/products/hlsl30v002/" target="_blank">
-https://lpdaac.usgs.gov/products/hlsl30v002/
-</a>
-</small>
-
-<small>
-Satellite imagery accessed via the Microsoft Planetary Computer STAC Catalog.
-<a href="https://planetarycomputer.microsoft.com" target="_blank">
-https://planetarycomputer.microsoft.com
-</a>
-</small>
-
-<small>
-Watershed boundary data from the U.S. Geological Survey (USGS) Watershed Boundary Dataset (WBD).
-<a href="https://www.usgs.gov/national-hydrography/watershed-boundary-dataset" target="_blank">
-https://www.usgs.gov/national-hydrography/watershed-boundary-dataset
-</a>
-</small>
-
-<small>
-Background basemap imagery © Esri, Earthstar Geographics.
-</small>

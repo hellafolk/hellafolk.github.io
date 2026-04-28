@@ -219,31 +219,25 @@ The most important next step is isolating the contribution of ocean state variab
 
 ## References
 
-Lan, X., Tans, P., Thoning, K., & NOAA Global Monitoring Laboratory. (2024). NOAA Greenhouse Gas Marine Boundary Layer Reference – CO₂. NOAA GML. https://doi.org/10.15138/DVNP-F961
+Lan, X., Tans, P., Thoning, K., & NOAA Global Monitoring Laboratory. (2023). NOAA Greenhouse Gas Marine Boundary Layer Reference – CO₂ [Data set]. NOAA GML. https://doi.org/10.15138/DVNP-F961
 
-CarbonTracker Team. (2025). CarbonTracker CT-NRT v2025-1 atmospheric CO₂ mole fraction product. NOAA Global Monitoring Laboratory.
+CarbonTracker CT-NRT.v2025-1. (2025). NOAA Global Monitoring Laboratory, Boulder, Colorado, USA. http://carbontracker.noaa.gov
 
-Huang, B., et al. (2021). Improvements of the Daily Optimum Interpolation Sea Surface Temperature (DOISST) Version 2.1. Journal of Climate, 34(8), 2923–2949. https://doi.org/10.1175/JCLI-D-20-0166.1
+Huang, B., Liu, C., Banzon, V., Freeman, E., Graham, G., Hankins, B., Smith, T., & Zhang, H.-M. (2021). Improvements of the Daily Optimum Interpolation Sea Surface Temperature (DOISST) Version 2.1. Journal of Climate, 34(8), 2923–2939. https://doi.org/10.1175/JCLI-D-20-0166.1
 
-Hersbach, H., et al. (2020). The ERA5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146(730), 1999–2049. https://doi.org/10.1002/qj.3803
+Hersbach, H., Bell, B., Berrisford, P., et al. (2020). The ERA5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146(730), 1999–2049. https://doi.org/10.1002/qj.3803
 
-Rella, C. W., Chen, H., Andrews, A. E., et al. (2015). High accuracy CO₂ and CH₄ measurements in humid air with the Picarro G2301 analyzer. Atmospheric Measurement Techniques, 8, 411–425. https://doi.org/10.5194/amt-8-411-2015
+Rella, C. W., Chen, H., Andrews, A. E., Filges, A., Gerbig, C., Hatakka, J., Karion, A., Miles, N. L., Richardson, S. J., Steinbacher, M., Sweeney, C., Wastine, B., & Zellweger, C. (2013). High accuracy measurements of dry mole fractions of carbon dioxide and methane in humid air. Atmospheric Measurement Techniques, 6, 837–860. https://doi.org/10.5194/amt-6-837-2013
 
-Takahashi, T., Sutherland, S. C., Wanninkhof, R., et al. (2009). Climatological mean and decadal changes in surface ocean pCO₂, and net sea–air CO₂ flux over the global oceans. Deep-Sea Research Part II, 56, 554–577. https://doi.org/10.1016/j.dsr2.2008.12.009
+Takahashi, T., Sutherland, S. C., Wanninkhof, R., Sweeney, C., Feely, R. A., Chipman, D. W., Hales, B., Friederich, G., Chavez, F., Sabine, C., Watson, A., Bakker, D. C. E., Schuster, U., Metzl, N., Yoshikawa-Inoue, H., Ishii, M., Midorikawa, T., Nojiri, Y., Körtzinger, A., Steinhoff, T., Hoppema, M., Olafsson, J., Arnarson, T. S., Tilbrook, B., Johannessen, T., Olsen, A., Bellerby, R., Wong, C. S., Delille, B., Bates, N. R., & de Baar, H. J. W. (2009). Climatological mean and decadal change in surface ocean pCO₂, and net sea–air CO₂ flux over the global oceans. Deep-Sea Research Part II, 56(8–10), 554–577. https://doi.org/10.1016/j.dsr2.2008.12.009
 
 Fay, A. R., Munro, D. R., McKinley, G. A., Pierrot, D., Sutherland, S. C., Sweeney, C., & Wanninkhof, R. (2024). Updated climatological mean ΔfCO₂ and net sea–air CO₂ flux over the global open ocean regions. Earth System Science Data, 16, 2123–2139. https://doi.org/10.5194/essd-16-2123-2024
 
-Landschützer, P., Lauvset, S. K., Becker, M., et al. (2024). Surface Ocean CO₂ Reference Observing Network (SOCONET). Earth System Science Data, 16, 2123–2160. https://doi.org/10.5194/essd-16-2123-2024
+Wanninkhof, R., Pickers, P. A., Omar, A. M., Sutton, A. J., Murata, A., Olsen, A., Stephens, B. B., Tilbrook, B., Munro, D. R., Pierrot, D., Rehder, G., Santana-Casiano, J. M., Müller, J. D., Telszewski, M., Hoppema, M., Ishii, M., González-Dávila, M., Bates, N. R., Metzl, N., Suntharalingam, P., Feely, R. A., Nakaoka, S., Lauvset, S. K., Takahashi, T., Steinhoff, T., & Schuster, U. (2019). A Surface Ocean CO₂ Reference Network, SOCONET and associated marine boundary layer CO₂ measurements. Frontiers in Marine Science, 6, 400. https://doi.org/10.3389/fmars.2019.00400
 
-Thompson, C. R., Wofsy, S. C., Prather, M. J., et al. (2022). The NASA Atmospheric Tomography (ATom) Mission: Imaging the Chemistry of the Global Atmosphere. Bulletin of the American Meteorological Society, 103(3), E761–E790. https://doi.org/10.1175/BAMS-D-20-0315.1
+Thompson, C. R., Wofsy, S. C., Prather, M. J., et al. (2022). The NASA Atmospheric Tomography (ATom) Mission: Imaging the chemistry of the global atmosphere. Bulletin of the American Meteorological Society, 103(3), E761–E790. https://doi.org/10.1175/BAMS-D-20-0315.1
 
-Cooperative Global Atmospheric Data Integration Project. (2023). Multi-laboratory compilation of atmospheric carbon dioxide data for the period 1957–2022 (GLOBALVIEWplus CO₂ ObsPack). NOAA Global Monitoring Laboratory. https://doi.org/10.25925/20230101
-
-Terao, Y., Nojiri, Y., Oda, T., et al. (2011). Shipboard measurements of atmospheric CO₂ and CH₄ concentrations in the western Pacific and their comparison with model simulations. Journal of Geophysical Research: Atmospheres, 116, D13303. https://doi.org/10.1029/2010JD015242
-
-NASA Goddard Space Flight Center, Ocean Ecology Laboratory, Ocean Biology Processing Group. (2022). VIIRS SNPP Level-3 Chlorophyll-a Daily 4 km data. NASA OB.DAAC.
-
-Wanninkhof, R., Pickers, P. A., Omar, A. M., Sutton, A. J., Olsen, A., Stephens, B. B., Tilbrook, B., Munro, D. R., Pierrot, D., Rehder, G., Santana-Casiano, J. M., Müller, J. D., Telszewski, M., Hoppema, M., Ishii, M., González-Dávila, M., Bates, N. R., Metzl, N., Suntharalingam, P., Feely, R. A., Nakaoka, S., Lauvset, S. K., Takahashi, T., Steinhoff, T., & Schuster, U. (2019). A surface ocean CO₂ reference network, SOCONET, and associated marine boundary layer CO₂ measurements. Frontiers in Marine Science, 6, 400. https://doi.org/10.3389/fmars.2019.00400
+NASA Ocean Biology Processing Group. (2025). Suomi-NPP VIIRS Level-3 Global Mapped Chlorophyll (CHL) Data, version 2022.0 [Data set]. NASA Ocean Biology Distributed Active Archive Center. https://doi.org/10.5067/SUOMI-NPP/VIIRS/L3M/CHL/2022.0
 
 ## Full Analysis Notebook
 [Available here](https://github.com/hellafolk/spring_model_vs_obs/blob/main/tropical_mbl_co2_full_analysis.ipynb)

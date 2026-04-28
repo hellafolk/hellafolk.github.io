@@ -55,7 +55,7 @@ The NOAA GML Marine Boundary Layer reference product has been widely used in air
 
 CarbonTracker, also produced by NOAA, is a three-dimensional atmospheric transport model constrained by observations, and provides CO₂ fields at higher spatial resolution. Several studies have used CarbonTracker output to provide atmospheric boundary conditions for flux calculations, with the expectation that its spatial structure better represents real atmospheric conditions than a zonally averaged product.
 
-Work by Takahashi et al. (2009) established the climatological picture of air–sea CO₂ exchange and identified the tropical Pacific as a major source region. More recently, Landschützer et al. (2024) emphasized the importance of integrating high-quality atmospheric observations with surface ocean measurements to better constrain air–sea CO₂ fluxes. Building on this foundation, my previous semester’s project deployed a Picarro analyzer—a cavity ring-down spectrometer known for its high precision and stability (Rella et al., 2015), directly within this under-observed region.
+Work by Takahashi et al. (2009) established the climatological picture of air–sea CO₂ exchange and identified the tropical Pacific as a major source region. More recently, Wanninkhof et al. (2019) emphasized the importance of integrating high-quality atmospheric observations with surface ocean measurements to better constrain air–sea CO₂ fluxes. Building on this foundation, my previous semester’s project deployed a Picarro analyzer—a cavity ring-down spectrometer known for its high precision and stability (Rella et al., 2015), directly within this under-observed region.
 
 ---
 
@@ -231,6 +231,8 @@ Rella, C. W., Chen, H., Andrews, A. E., et al. (2015). High accuracy CO₂ and C
 
 Takahashi, T., Sutherland, S. C., Wanninkhof, R., et al. (2009). Climatological mean and decadal changes in surface ocean pCO₂, and net sea–air CO₂ flux over the global oceans. Deep-Sea Research Part II, 56, 554–577. https://doi.org/10.1016/j.dsr2.2008.12.009
 
+Fay, A. R., Munro, D. R., McKinley, G. A., Pierrot, D., Sutherland, S. C., Sweeney, C., & Wanninkhof, R. (2024). Updated climatological mean ΔfCO₂ and net sea–air CO₂ flux over the global open ocean regions. Earth System Science Data, 16, 2123–2139. https://doi.org/10.5194/essd-16-2123-2024
+
 Landschützer, P., Lauvset, S. K., Becker, M., et al. (2024). Surface Ocean CO₂ Reference Observing Network (SOCONET). Earth System Science Data, 16, 2123–2160. https://doi.org/10.5194/essd-16-2123-2024
 
 Thompson, C. R., Wofsy, S. C., Prather, M. J., et al. (2022). The NASA Atmospheric Tomography (ATom) Mission: Imaging the Chemistry of the Global Atmosphere. Bulletin of the American Meteorological Society, 103(3), E761–E790. https://doi.org/10.1175/BAMS-D-20-0315.1
@@ -240,6 +242,8 @@ Cooperative Global Atmospheric Data Integration Project. (2023). Multi-laborator
 Terao, Y., Nojiri, Y., Oda, T., et al. (2011). Shipboard measurements of atmospheric CO₂ and CH₄ concentrations in the western Pacific and their comparison with model simulations. Journal of Geophysical Research: Atmospheres, 116, D13303. https://doi.org/10.1029/2010JD015242
 
 NASA Goddard Space Flight Center, Ocean Ecology Laboratory, Ocean Biology Processing Group. (2022). VIIRS SNPP Level-3 Chlorophyll-a Daily 4 km data. NASA OB.DAAC.
+
+Wanninkhof, R., Pickers, P. A., Omar, A. M., Sutton, A. J., Olsen, A., Stephens, B. B., Tilbrook, B., Munro, D. R., Pierrot, D., Rehder, G., Santana-Casiano, J. M., Müller, J. D., Telszewski, M., Hoppema, M., Ishii, M., González-Dávila, M., Bates, N. R., Metzl, N., Suntharalingam, P., Feely, R. A., Nakaoka, S., Lauvset, S. K., Takahashi, T., Steinhoff, T., & Schuster, U. (2019). A surface ocean CO₂ reference network, SOCONET, and associated marine boundary layer CO₂ measurements. Frontiers in Marine Science, 6, 400. https://doi.org/10.3389/fmars.2019.00400
 
 ## Full Analysis Notebook
 [Available here](https://github.com/hellafolk/spring_model_vs_obs/blob/main/tropical_mbl_co2_full_analysis.ipynb)

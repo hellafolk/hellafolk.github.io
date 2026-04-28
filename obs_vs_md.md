@@ -210,5 +210,13 @@ Takahashi, T., Sutherland, S. C., Wanninkhof, R., et al. (2009). Climatological 
 
 Landschützer, P., Lauvset, S. K., Becker, M., & the SOCONET Team. (2024). Surface Ocean CO₂ Reference Observing Network (SOCONET). Earth System Science Data, 16, 2123–2160. [https://doi.org/10.5194/essd-16-2123-2024](https://doi.org/10.5194/essd-16-2123-2024)
 
+Thompson, C. R., Wofsy, S. C., Prather, M. J., et al. (2022). The NASA Atmospheric Tomography (ATom) Mission: Imaging the Chemistry of the Global Atmosphere. Bulletin of the American Meteorological Society, 103(3), E761–E790. https://doi.org/10.1175/BAMS-D-20-0315.1
+
+Cooperative Global Atmospheric Data Integration Project. (2023). Multi-laboratory compilation of atmospheric carbon dioxide data for the period 1957–2022. NOAA Global Monitoring Laboratory. https://doi.org/10.25925/20230101
+
+Terao, Y., Nojiri, Y., Oda, T., et al. (2011). Shipboard measurements of atmospheric CO₂ and CH₄ concentrations in the western Pacific and their comparison with model simulations. Journal of Geophysical Research: Atmospheres, 116, D13303. https://doi.org/10.1029/2010JD015242
+
+NASA Goddard Space Flight Center, Ocean Ecology Laboratory, Ocean Biology Processing Group. (2022). MODIS-Aqua Level-3 Chlorophyll-a Monthly 9km. NASA OB.DAAC. https://doi.org/10.5067/AQUA/MODIS/L3M/CHL/2022
+
 ## Full Analysis Notebook
 [Available here](https://github.com/hellafolk/final_project/tree/main/notebook)

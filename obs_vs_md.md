@@ -98,7 +98,7 @@ A random forest regression model was trained to predict CO₂ from seven input f
 All three platforms show a consistent seasonal CO₂ cycle across the tropical Pacific, ranging from approximately 398–418 ppm over the study period. The rising trend from 2016 to 2018 is clearly visible in the time series. ATom campaigns appear as discrete clusters in time — each campaign lasted only a few weeks — while the ship data provide more continuous coverage.
 
 <p align="center">
-  <img src="" style="width: 90%; max-width: 700px; border-radius: 12px;">
+  <img src="https://hellafolk.github.io/img/final_apr26/fig3.png" style="width: 90%; max-width: 700px; border-radius: 12px;">
 </p>
 <div style="text-align: center; max-width: 700px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
@@ -107,7 +107,7 @@ All three platforms show a consistent seasonal CO₂ cycle across the tropical P
 </div>
 
 <p align="center">
-  <img src="" style="width: 90%; max-width: 600px; border-radius: 12px;">
+  <img src="https://hellafolk.github.io/img/final_apr26/fig2.png" style="width: 90%; max-width: 600px; border-radius: 12px;">
 </p>
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
@@ -120,16 +120,7 @@ All three platforms show a consistent seasonal CO₂ cycle across the tropical P
 When observations are compared to the three reference products, all platforms show small but systematic positive offsets — meaning the observations are consistently slightly higher than what the reference products predict. Mean offsets range from approximately +0.07 ppm (ATom-1) to +0.87 ppm (ATom-4) relative to the Global MBL reference. The CarbonTracker product reduces these offsets relative to the MBL products, suggesting it captures some of the regional variability that the zonally averaged MBL products smooth over.
 
 <p align="center">
-  <img src="" style="width: 90%; max-width: 700px; border-radius: 12px;">
-</p>
-<div style="text-align: center; max-width: 700px; margin: 0 auto;">
-  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
-    <em>Per-platform CO₂ offset from the NOAA GHG MBL reference. Dashed line at zero. Mean offset annotated for each platform. All platforms show a small positive bias.</em>
-  </p>
-</div>
-
-<p align="center">
-  <img src="" style="width: 90%; max-width: 800px; border-radius: 12px;">
+  <img src="https://hellafolk.github.io/img/final_apr26/fig4.png" style="width: 90%; max-width: 800px; border-radius: 12px;">
 </p>
 <div style="text-align: center; max-width: 800px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
@@ -142,7 +133,7 @@ When observations are compared to the three reference products, all platforms sh
 The most striking result is the coherent spatial and temporal structure of the offsets revealed by the Hovmöller diagram. All three reference products show the same north-south asymmetry — models tend to be higher than observations in the southern tropics and lower in the northern tropics. This pattern is not random noise — it is consistent across all three independent reference products and persists through the full three-year study period. The seasonal banding visible in the Hovmöller suggests the bias has a seasonal component, likely related to the migration of the Inter-Tropical Convergence Zone and the north-south hemispheric asymmetry in the CO₂ seasonal cycle.
 
 <p align="center">
-  <img src="" style="width: 90%; max-width: 900px; border-radius: 12px;">
+  <img src="https://hellafolk.github.io/img/final_apr26/fig5.png" style="width: 90%; max-width: 900px; border-radius: 12px;">
 </p>
 <div style="text-align: center; max-width: 900px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
@@ -155,7 +146,7 @@ The most striking result is the coherent spatial and temporal structure of the o
 None of the four remote sensing variables — SST, chlorophyll, wind speed, or surface pressure — show a strong linear relationship with the CO₂ offset on their own. SST shows a slightly negative relationship with CO₂, likely because the seasonal CO₂ cycle driven by the Northern Hemisphere land biosphere dominates over the local ocean temperature signal at monthly resolution. Chlorophyll shows a weak positive slope, consistent with upwelling regions bringing CO₂-rich subsurface water to the surface. Wind speed is essentially flat. Pressure shows a weak positive slope associated with stable high-pressure systems.
 
 <p align="center">
-  <img src="" style="width: 90%; max-width: 800px; border-radius: 12px;">
+  <img src="https://hellafolk.github.io/img/final_apr26/fig6.png" style="width: 90%; max-width: 800px; border-radius: 12px;">
 </p>
 <div style="text-align: center; max-width: 800px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
@@ -168,7 +159,7 @@ None of the four remote sensing variables — SST, chlorophyll, wind speed, or s
 A random forest regression model trained on seven features achieved R² = 0.84 and MAE = 0.69 ppm when predicting raw CO₂ across all 23,312 matched observations. While this appears to be a strong result, much of the explained variance is likely driven by the strong seasonal cycle captured by day of year and the latitudinal CO₂ gradient captured by latitude and longitude. The contribution of the ocean state variables alone remains to be isolated. This analysis is ongoing and represents a work in progress as I continue to develop my machine learning skills.
 
 <p align="center">
-  <img src="" style="width: 90%; max-width: 700px; border-radius: 12px;">
+  <img src="https://hellafolk.github.io/img/final_apr26/fig7.png" style="width: 90%; max-width: 700px; border-radius: 12px;">
 </p>
 <div style="text-align: center; max-width: 700px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">

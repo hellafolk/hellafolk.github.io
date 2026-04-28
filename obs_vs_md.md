@@ -213,4 +213,4 @@ Terao, Y., Nojiri, Y., Oda, T., et al. (2011). Shipboard measurements of atmosph
 NASA Goddard Space Flight Center, Ocean Ecology Laboratory, Ocean Biology Processing Group. (2022). VIIRS SNPP Level-3 Chlorophyll-a Daily 4 km data. NASA OB.DAAC.
 
 ## Full Analysis Notebook
-[Available here](https://github.com/hellafolk/final_project/tree/main/notebook)
+[Available here](https://github.com/hellafolk/spring_model_vs_obs/blob/main/tropical_mbl_co2_full_analysis.ipynb)

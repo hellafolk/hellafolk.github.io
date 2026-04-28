@@ -14,13 +14,13 @@ Because the equatorial Pacific plays an outsized role in the global carbon cycle
 ---
 <p align="center">
   <img 
-    src="https://hellafolk.github.io/img/ship_track.png"
-    style="width: 90%; max-width: 500px; border-radius: 12px;"
+    src="https://hellafolk.github.io/img/final_apr26/fig1.png"
+    style="width: 90%; max-width: 600px; border-radius: 12px;"
   >
 </p>
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
-    <em>Shiptrack: Area of Interest</em>
+    <em>Pacific-centred globe showing the tropical study region (23.5°S–23.5°N, gold dashed lines)</em>
   </p>
 </div>
 ---

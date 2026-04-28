@@ -6,7 +6,23 @@ layout: default
 
 ## 1. Project Motivation
 
-This project is a extension of work I began last semester, when I installed a Picarro CO₂ analyzer aboard a commercial shipping vessel that ended up transiting the tropical Pacific. That deployment gave me a look at high-resolution atmospheric CO₂ measurements from a part of the ocean that is both critically important to the global carbon cycle and severely under-observed. When I compared those shipboard measurements to model reference products (specifically the NOAA Marine Boundary Layer (MBL) reference) I found offsets that I couldn't immediately explain. Were they an artifact of my instrument? A problem with the model? Or something more fundamental about how we represent atmospheric CO₂ over the tropical Pacific?
+This project extends work I began last semester, when I installed a Picarro CO₂ analyzer aboard a commercial shipping vessel transiting the tropical Pacific. Although I had spent time at sea before, this platform felt entirely new. I was the only scientist on a cargo ship. Also the only American and the only woman. It came with its own set of unfamiliar rituals. There were small cultural shifts, like the unexpected allowance of alcohol, two beers or one bottle of wine permitted per person per day (a contrast to the dry research vessels), and more unique routines, like stowaway drills (looking for stowaways, not pretending to be one) and late-night Filipino karaoke sessions, where I eventually found myself singing along.
+
+---
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/final_apr26/fig10.png"
+    style="width: 90%; max-width: 600px; border-radius: 12px;"
+  >
+</p>
+<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
+    <em>Pacific-centred globe showing the tropical study region (23.5°S–23.5°N, gold dashed lines)</em>
+  </p>
+</div>
+---
+
+Beyond the experience itself, that deployment provided a rare look at high-resolution atmospheric CO₂ measurements from a region that is both critically important to the global carbon cycle and severely under-observed. When I compared these shipboard observations to model reference products, specifically the NOAA Marine Boundary Layer (MBL) reference, I found offsets that I couldn’t immediately explain. Were they an artifact of the instrument? A limitation of the model? Or something more fundamental about how we represent atmospheric CO₂ over the tropical Pacific?
 
 These questions became this project.
 

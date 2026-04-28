@@ -17,7 +17,20 @@ This project extends work I began last semester, when I installed a Picarro CO�
 </p>
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
-    <em>Pacific-centred globe showing the tropical study region (23.5°S–23.5°N, gold dashed lines)</em>
+    <em>M/V Tysla</em>
+  </p>
+</div>
+---
+---
+<p align="center">
+  <img 
+    src="https://hellafolk.github.io/img/final_apr26/fig9.png"
+    style="width: 90%; max-width: 600px; border-radius: 12px;"
+  >
+</p>
+<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
+    <em>Pre-Deployment</em>
   </p>
 </div>
 ---

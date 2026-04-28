@@ -36,14 +36,19 @@ This project extends that work by bringing in two additional observing platforms
 
 The study focuses on the tropical Pacific marine boundary layer, defined here as the region between 23.5°S and 23.5°N. For aircraft data, the marine boundary layer is further constrained to altitudes below 500 meters, consistent with typical MBL depths in this region.
 
+---
 <p align="center">
-  <img src="hellafolk.github.io/img/final_apr26/fig1.png" style="width: 90%; max-width: 600px; border-radius: 12px;">
+  <img 
+    src="https://hellafolk.github.io/img/final_apr26/fig1.png"
+    style="width: 90%; max-width: 600px; border-radius: 12px;"
+  >
 </p>
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">
     <em>Pacific-centred globe showing the tropical study region (23.5°S–23.5°N, gold dashed lines)</em>
   </p>
 </div>
+---
 
 The time period 2016–2018 was chosen because it coincides with the NASA Atmospheric Tomography (ATom) campaign, which provided repeated aircraft transects across the tropical Pacific at high vertical resolution. This gave us a rare opportunity to compare surface ship observations with aircraft measurements sampling the same atmospheric layer, over the same region, within the same multi-year window.
 

@@ -37,7 +37,7 @@ This project extends that work by bringing in two additional observing platforms
 The study focuses on the tropical Pacific marine boundary layer, defined here as the region between 23.5°S and 23.5°N. For aircraft data, the marine boundary layer is further constrained to altitudes below 500 meters, consistent with typical MBL depths in this region.
 
 <p align="center">
-  <img src="" style="width: 90%; max-width: 600px; border-radius: 12px;">
+  <img src="hellafolk.github.io/img/final_apr26/fig1.png" style="width: 90%; max-width: 600px; border-radius: 12px;">
 </p>
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 0.8rem; color: #444; background: #f5f5f5; padding: 6px 10px; border-radius: 6px;">

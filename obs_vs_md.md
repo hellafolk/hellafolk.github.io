@@ -203,7 +203,7 @@ A random forest regression model trained on seven features achieved R² = 0.84 a
 
 ## 6. Conclusions and Future Work
 
-Was the offset I saw last semester between my shipboard CO₂ measurements and a model reference product something unique to my instrument, or a broader phenomenon? The answer is clearly the latter. All three observing platforms, two ships and a research aircraft, how systematic offsets from all three reference products, with a coherent north-south spatial structure and seasonal variability that none of the products fully capture.
+Was the offset I saw last semester between my shipboard CO₂ measurements and a model reference product something unique to my instrument, or a broader phenomenon? The answer is clearly the latter. All three observing platforms, two ships and a research aircraft, had systematic offsets from all three reference products, with a coherent north-south spatial structure and seasonal variability that none of the products fully capture.
 
 The key findings are:
 
